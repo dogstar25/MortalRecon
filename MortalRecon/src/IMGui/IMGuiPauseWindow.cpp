@@ -3,7 +3,6 @@
 #include "../GameConstants.h"
 #include "../MRContextManager.h"
 
-
 extern std::unique_ptr<Game> game;
 
 

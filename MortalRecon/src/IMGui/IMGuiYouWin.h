@@ -1,7 +1,6 @@
 #pragma once
 #include "MobyDick.h"
 
-
 class IMGuiYouWin : public IMGuiItem
 {
 public:

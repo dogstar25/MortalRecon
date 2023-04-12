@@ -1,6 +1,5 @@
 #include "PistolFireAction.h"
 
-
 void PistolFireAction::perform(GameObject* gameObject)
 {
 

@@ -1,6 +1,5 @@
 #include "ActorSprintAction.h"
 
-
 void ActorSprintAction::perform(GameObject* gameObject, int direction, int strafe)
 {
 	const auto& physicsComponent = gameObject->getComponent<PhysicsComponent>(ComponentTypes::PHYSICS_COMPONENT);

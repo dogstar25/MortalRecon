@@ -1,5 +1,4 @@
 #include "MRContactFilter.h"
-
 #include "GameConstants.h"
 
 MRContactFilter::MRContactFilter()

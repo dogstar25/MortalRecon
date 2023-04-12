@@ -1,5 +1,4 @@
 #include "IMGuiTestLevelMenu.h"
-
 #include "MR_IMGuiUtil.h"
 #include "../GameConstants.h"
 #include "../MRContextManager.h"

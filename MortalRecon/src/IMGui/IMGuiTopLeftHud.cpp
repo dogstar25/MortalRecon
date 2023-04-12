@@ -1,7 +1,5 @@
 #include "IMGuiTopLeftHud.h"
-
 #include "../GameConstants.h"
-
 
 extern std::unique_ptr<Game> game;
 

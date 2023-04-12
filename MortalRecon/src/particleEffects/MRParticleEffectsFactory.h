@@ -1,8 +1,6 @@
 #pragma once
 #include "MobyDick.h"
-
 #include "GameParticleEffects.h"
-
 
 class MRParticleEffectsFactory : public ParticleEffectsFactory{
 

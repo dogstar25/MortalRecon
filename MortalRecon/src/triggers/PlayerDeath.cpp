@@ -1,8 +1,6 @@
 #include "PlayerDeath.h"
-
 #include "../GameConstants.h"
 #include "../particleEffects/GameParticleEffects.h"
-
 
 extern std::unique_ptr<Game> game;
 

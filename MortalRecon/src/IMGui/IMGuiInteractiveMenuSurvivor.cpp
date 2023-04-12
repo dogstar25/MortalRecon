@@ -1,6 +1,5 @@
 #include "IMGuiInteractiveMenuSurvivor.h"
 
-
 extern std::unique_ptr<Game> game;
 
 IMGuiInteractiveMenuSurvivor::IMGuiInteractiveMenuSurvivor(std::string gameObjectType, b2Vec2 padding, ImVec4 backgroundColor, ImVec4 textColor,
@@ -16,10 +15,6 @@ glm::vec2 IMGuiInteractiveMenuSurvivor::render()
 {
 
 	glm::vec2 windowSize{};
-
-	const auto& baseGameObject = parent()->parent().value();
-	const auto& baseObjectActionComponent = baseGameObject->getComponent<ActionComponent>(ComponentTypes::ACTION_COMPONENT);
-	const auto& interactAction = baseObjectActionComponent->getAction(ACTION_INTERACTION);
 
 	const auto& renderComponent = parent()->getComponent<RenderComponent>(ComponentTypes::RENDER_COMPONENT);
 	ImGuiIO& io = ImGui::GetIO(); (void)io;
@@ -59,12 +54,23 @@ glm::vec2 IMGuiInteractiveMenuSurvivor::render()
 	ImGui::PopStyleColor();
 	ImGui::PopStyleVar();
 
-	//if (ImGui::IsKeyPressed(ImGuiKey_E)) {
-	//	interactAction->perform(interactingObject, parent()->parent().value(), SDL_SCANCODE_E);
-	//}
-	//if (ImGui::IsKeyPressed(ImGuiKey_R)) {
-	//	interactAction->perform(interactingObject, parent()->parent().value(), SDL_SCANCODE_R);
-	//}
+	//Handle executing the interActionAction tied to what the user selects
+	//The interaction object at this point, needed by the interactAction will always be the player at this point
+	const auto& player = parent()->parentScene()->getFirstGameObjectByTrait(TraitTag::player);
+	const auto& baseGameObject = parent()->parent();
+
+	if (player.has_value() && baseGameObject.has_value()) {
+
+		const auto& baseObjectActionComponent = baseGameObject.value()->getComponent<ActionComponent>(ComponentTypes::ACTION_COMPONENT);
+		const auto& interactAction = baseObjectActionComponent->getAction(ACTION_INTERACTION);
+
+		if (ImGui::IsKeyPressed(ImGuiKey_E)) {
+			interactAction->perform(player->get(), parent()->parent().value(), SDL_SCANCODE_E);
+		}
+		if (ImGui::IsKeyPressed(ImGuiKey_R)) {
+			interactAction->perform(player->get(), parent()->parent().value(), SDL_SCANCODE_R);
+		}
+	}
 
 	return windowSize;
 }

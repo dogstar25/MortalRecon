@@ -1,7 +1,6 @@
 #include "ActorRotateAction.h"
 #include "../components/GinaPlayerControlComponent.h"
 
-
 void ActorRotateAction::perform(GameObject* gameObject, float angularVelocity)
 {
 	const auto& physicsComponent = gameObject->getComponent<PhysicsComponent>(ComponentTypes::PHYSICS_COMPONENT);

@@ -1,6 +1,5 @@
 #include "DroneEyeRotateAction.h"
 
-
 void DroneEyeRotateAction::perform(GameObject* gameObject, float angularVelocity)
 {
 	const auto& physicsComponent = gameObject->getComponent<PhysicsComponent>(ComponentTypes::PHYSICS_COMPONENT);

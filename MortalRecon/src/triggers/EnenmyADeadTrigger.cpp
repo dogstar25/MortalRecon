@@ -1,5 +1,4 @@
 #include "EnemyADeadTrigger.h"
-
 #include "../GameConstants.h"
 #include "../particleEffects/GameParticleEffects.h"
 

@@ -150,7 +150,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>MobyDick.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <Profile>true</Profile>
-      <AdditionalLibraryDirectories>C:\projects\MobyDick\MobyDick\x64\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <NoEntryPoint>false</NoEntryPoint>
       <EntryPointSymbol>
       </EntryPointSymbol>
@@ -184,7 +184,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>MobyDick.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>C:\projects\MobyDick\MobyDick\x64\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <NoEntryPoint>false</NoEntryPoint>
       <EntryPointSymbol>
       </EntryPointSymbol>
@@ -242,11 +242,6 @@
     <ClCompile Include="src\triggers\LevelComplete.cpp" />
     <ClCompile Include="src\triggers\MRTriggerFactory.cpp" />
     <ClCompile Include="src\triggers\PlayerDeath.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\MobyDick\MobyDick.vcxproj">
-      <Project>{5bc96c69-a864-419d-96c6-bc3507de7d1b}</Project>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Image Include="assets\blueprints\breakable_wall_128_blueprint.png" />

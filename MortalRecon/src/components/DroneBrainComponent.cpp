@@ -121,6 +121,11 @@ void DroneBrainComponent::_doEngage()
 			action->perform(eyeGameObject.get());
 		}
 
+		//Instead, get the weapon component and execute fire - PROPOSAL FOR ACTIONcOMPONENT CHANGES
+		//const auto& weaponComponent = eyeGameObject->getComponent<WeaponComponent>(ComponentTypes::WEAPON_COMPONENT);
+		//weaponComponent->fire();
+
+
 	}
 
 	//If we are pretty close to the player then stop but should keep shooting

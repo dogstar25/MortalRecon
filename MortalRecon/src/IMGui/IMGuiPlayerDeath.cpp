@@ -1,5 +1,4 @@
 #include "IMGuiPlayerDeath.h"
-
 #include "MR_IMGuiUtil.h"
 #include "../GameConstants.h"
 #include "../MRContextManager.h"

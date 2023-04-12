@@ -1,6 +1,5 @@
 #include "ToggleButtonInteraction.h"
 
-
 extern std::unique_ptr<Game> game;
 
 void ToggleButtonInteraction::perform(GameObject* interactingObject, GameObject* interactionObject, SDL_Scancode keyCode)

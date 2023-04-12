@@ -1,5 +1,4 @@
 #include "MRGame.h"
-
 #include "GameConstants.h"
 #include "MRContextManager.h"
 
