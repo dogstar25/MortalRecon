@@ -72,7 +72,7 @@ glm::vec2 IMGuiPauseWindow::render()
 		ImGui::PopStyleColor();
 		ImGui::PopStyleColor();
 		ImGui::PopStyleColor();
-
+		ImGui::PopStyleColor();
 
 		windowSize = { ImGui::GetWindowSize().x, ImGui::GetWindowSize().y };
 
