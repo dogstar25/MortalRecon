@@ -1,4 +1,8 @@
 #pragma once
+<<<<<<< HEAD
+
+=======
+>>>>>>> master
 #include "MobyDick.h"
 
 /*

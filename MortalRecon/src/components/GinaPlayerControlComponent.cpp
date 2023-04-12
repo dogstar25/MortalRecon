@@ -1,5 +1,4 @@
 #include "GinaPlayerControlComponent.h"
-
 #include "PistolWeaponComponent.h"
 
 extern std::unique_ptr<Game> game;

@@ -1,5 +1,4 @@
 #pragma once
-
 #include "MobyDick.h"
 
 class GameObject;
@@ -14,3 +13,7 @@ public:
 
 };
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> master

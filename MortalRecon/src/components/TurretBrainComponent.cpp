@@ -1,6 +1,5 @@
 #include "TurretBrainComponent.h"
 
-
 TurretBrainComponent::TurretBrainComponent(Json::Value definitionJSON)
 	: BrainComponent(definitionJSON)
 {

@@ -17,4 +17,5 @@ void ActorBoostAction::perform(GameObject* gameObject)
 
 	animationComponent->animate(ANIMATION_IDLE, ANIMATE_CONTINUOUS);
 
+	//test
 }

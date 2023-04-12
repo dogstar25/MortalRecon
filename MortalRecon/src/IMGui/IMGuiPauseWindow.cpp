@@ -1,5 +1,4 @@
 #include "IMGuiPauseWindow.h"
-
 #include "MR_IMGuiUtil.h"
 #include "../GameConstants.h"
 #include "../MRContextManager.h"
@@ -31,6 +30,7 @@ glm::vec2 IMGuiPauseWindow::render()
 	ImGui::Begin(m_gameObjectType.c_str(), nullptr, m_flags);
 	{
 
+		ImGui::PushStyleColor(ImGuiCol_Text, m_textColor);
 		ImGui::PushStyleColor(ImGuiCol_Button, m_buttonColor);
 		ImGui::PushStyleColor(ImGuiCol_ButtonHovered, m_buttonHoverColor);
 		ImGui::PushStyleColor(ImGuiCol_ButtonActive, m_buttonActiveColor);
@@ -94,9 +94,14 @@ void IMGuiPauseWindow::settingsModal()
 	ImGui::SetWindowSize(m_settingsModalSize);
 
 	//Button Style
-	ImGui::PushStyleColor(ImGuiCol_Button, m_buttonColor);
-	ImGui::PushStyleColor(ImGuiCol_ButtonHovered, m_buttonHoverColor);
-	ImGui::PushStyleColor(ImGuiCol_ButtonActive, m_buttonActiveColor);
+	ImGui::PushStyleColor(ImGuiCol_Text, util::SDLColorToImVec4(Colors::WHITE));
+	ImGui::PushStyleColor(ImGuiCol_Button, util::SDLColorToImVec4(Colors::ROBINEGG));
+	ImGui::PushStyleColor(ImGuiCol_ButtonHovered, util::SDLColorToImVec4(Colors::RICK_BLACK));
+	ImGui::PushStyleColor(ImGuiCol_ButtonActive, util::SDLColorToImVec4(Colors::BLACK));
+
+	//ImGui::PushStyleColor(ImGuiCol_Button, m_buttonColor);
+	//ImGui::PushStyleColor(ImGuiCol_ButtonHovered, m_buttonHoverColor);
+	//ImGui::PushStyleColor(ImGuiCol_ButtonActive, m_buttonActiveColor);
 
 	ImGui::SameLine(24);
 	ImGui::BeginGroup();

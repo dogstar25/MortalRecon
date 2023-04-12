@@ -1,5 +1,4 @@
 #include "SurvivorBrainComponent.h"
-
 #include "../GameConstants.h"
 
 extern std::unique_ptr<Game> game;
@@ -44,12 +43,22 @@ void SurvivorBrainComponent::followMe(std::shared_ptr<GameObject> gameObjectToFo
 	m_gameObjectToFollow = gameObjectToFollow;
 	m_currentState = BrainState::FOLLOW;
 
+	//Animate acknowledge
+	auto const& animationComponent = parent()->getComponent<AnimationComponent>(ComponentTypes::ANIMATION_COMPONENT);
+	animationComponent->animate(ANIMATION_ACKNOWLEDGE, ANIMATE_ONE_TIME);
+	animationComponent->setFlash(Colors::YELLOW, .05, 1);
+
 }
 
 void SurvivorBrainComponent::stay() {
 
 	m_gameObjectToFollow.reset();
 	m_currentState = BrainState::IDLE;
+
+	//Animate acknowledge
+	auto const& animationComponent = parent()->getComponent<AnimationComponent>(ComponentTypes::ANIMATION_COMPONENT);
+	animationComponent->animate(ANIMATION_ACKNOWLEDGE, ANIMATE_ONE_TIME);
+	animationComponent->setFlash(Colors::YELLOW, .05, 1);
 
 }
 
@@ -68,7 +77,7 @@ int SurvivorBrainComponent::_determineState()
 		if (_detectFollowedObject() == false) {
 
 			if (m_lostTimer.firstTime) {
-				m_lostTimer = Timer(3);
+				m_lostTimer = Timer(2);
 			}
 			else if (m_lostTimer.hasMetTargetDuration()) {
 				state = BrainState::LOST;

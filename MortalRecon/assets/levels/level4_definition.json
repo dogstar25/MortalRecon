@@ -20,6 +20,17 @@
             }
         }
     ],
+    "parallax": [
+        {
+            "layer": "GameLayer::BACKGROUND_1",
+            "parallaxRate": -10
+        },
+        {
+            "layer": "GameLayer::FOREGROUND_2",
+            "parallaxRate": 15
+        }
+
+    ],
     "statusItems": [
         {
             "id": "StatusItemId::PLAYERS_HEART_COUNT",
@@ -95,7 +106,7 @@
         {
             "colorKey": "Colors::PURPLE",
             "gameObjectType": "VOID_FILLER",
-            "layer": "GameLayer::BACKGROUND_1",
+            "layer": "GameLayer::BACKGROUND_2",
             "objectColor": "Colors::CYAN"
         },
         {
@@ -169,63 +180,67 @@
             "id": "LOC_0099_0009",
             "gameObjectType": "TURRET",
             "angle": 180,
-            "brainSensorSize": 40
+            "brainSensorSize": 40,
+            "weaponColor": "Colors::RED"
         },
         {
             "id": "LOC_0102_0009",
             "gameObjectType": "TURRET",
             "angle": 180,
-            "brainSensorSize": 40
+            "brainSensorSize": 40,
+            "weaponColor": "Colors::RED"
         },
         {
             "id": "LOC_0105_0009",
             "gameObjectType": "TURRET",
             "angle": 180,
-            "brainSensorSize": 40
+            "brainSensorSize": 40,
+            "weaponColor": "Colors::RED"
         },
         {
             "id": "LOC_0108_0009",
             "gameObjectType": "TURRET",
             "angle": 180,
-            "brainSensorSize": 30
+            "brainSensorSize": 30,
+            "weaponColor": "Colors::RED"
         },
         {
             "id": "LOC_0016_0037",
             "gameObjectType": "TURRET",
             "angle": 180,
             "brainSensorSize": 30,
-            "objectColor": "Colors::RED",
-            "weaponColor": "Colors::RED"
+            "weaponColor": "Colors::RED",
+            "objectColor": "Colors::RED"
         },
         {
             "id": "LOC_0004_0043",
             "gameObjectType": "TURRET",
             "angle": 90,
             "brainSensorSize": 30,
-            "objectColor": "Colors::RED",
-            "weaponColor": "Colors::RED"
+            "weaponColor": "Colors::RED",
+            "objectColor": "Colors::RED"
         },
         {
             "id": "LOC_0004_0054",
             "gameObjectType": "TURRET",
             "angle": 90,
             "brainSensorSize": 30,
-            "objectColor": "Colors::RED",
-            "weaponColor": "Colors::RED"
+            "weaponColor": "Colors::RED",
+            "objectColor": "Colors::RED"
         },
         {
             "id": "LOC_0010_0060",
             "gameObjectType": "TURRET",
             "brainSensorSize": 30,
-            "objectColor": "Colors::RED",
-            "weaponColor": "Colors::RED"
+            "weaponColor": "Colors::RED",
+            "objectColor": "Colors::RED"
         },
         {
             "id": "LOC_0021_0062",
             "gameObjectType": "TURRET",
             "brainSensorSize": 30,
-            "objectColor": "Colors::RED",
-            "weaponColor": "Colors::RED"
+            "weaponColor": "Colors::RED",
+            "objectColor": "Colors::RED"
         },
         {
             "id": "LOC_0027_0029",

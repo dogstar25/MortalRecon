@@ -1,5 +1,6 @@
 #pragma once
 #include "MobyDick.h"
+#include "../GameConstants.h"
 
 namespace ImGui
 {
