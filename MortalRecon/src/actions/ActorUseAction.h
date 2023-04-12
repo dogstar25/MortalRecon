@@ -12,8 +12,3 @@ public:
 	void perform(GameObject* gameObject, int usageParm) override;
 
 };
-
-<<<<<<< HEAD
-
-=======
->>>>>>> master
