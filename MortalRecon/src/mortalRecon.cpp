@@ -14,13 +14,13 @@
 
 std::unique_ptr<Game> game;
 
-int WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, char*, int nShowCmd)
-//int main(int argc, char* args[])
+//int WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, char*, int nShowCmd)
+int main(int argc, char* args[])
 {
 	//create game 
 	game = std::make_unique<MRGame>();
 
-	std::cout << "Mortal Rescue Begins" << std::endl;
+	std::cout << "Mortal Recon Begins" << std::endl;
 
 	//init game
 	game->init(

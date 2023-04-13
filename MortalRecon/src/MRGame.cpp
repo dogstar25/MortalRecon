@@ -64,7 +64,6 @@ bool MRGame::init(std::shared_ptr<ContactListener> contactListener, std::shared_
 	//Initialize the clock object
 	Clock::instance().init();
 
-
 	return true;
 }
 

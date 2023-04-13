@@ -152,6 +152,13 @@
             "name": "EnemyA"
         },
         {
+            "id": "LOC_0003_0010",
+            "gameObjectType": "TURRET",
+            "angle": 0,
+            "brainSensorSize": 40,
+            "objectColor": "Colors::RED"
+        },
+        {
             "id": "LOC_0019_0025",
             "gameObjectType": "DRONE2"
         },
@@ -189,12 +196,6 @@
             "name": "button3"
         },
         {
-            "id": "LOC_0019_0016",
-            "gameObjectType": "TOGGLE_BUTTON",
-            "angle": 180,
-            "name": "button3"
-        },
-        {
             "id": "LOC_0038_0016",
             "gameObjectType": "TOGGLE_BUTTON",
             "angle": 180,
@@ -210,12 +211,6 @@
             "id": "LOC_0034_0020",
             "gameObjectType": "LASERWALL_64",
             "name": "button1_TARGET",
-            "disabled": "DISABLED_TYPE::RENDER_AND_PHYSICS"
-        },
-        {
-            "id": "LOC_0004_0018",
-            "gameObjectType": "LASERWALL_64",
-            "name": "button3_TARGET",
             "disabled": "DISABLED_TYPE::RENDER_AND_PHYSICS"
         },
         {

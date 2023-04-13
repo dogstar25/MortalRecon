@@ -160,16 +160,10 @@ void IMGuiTitleScreenMenu::settingsModal()
 	}
 	ImGui::EndGroup();
 
-
 	ImGui::PopStyleColor();
 	ImGui::PopStyleColor();
 	ImGui::PopStyleColor();
 	ImGui::PopStyleColor();
-
-
-	if (ImGui::IsKeyPressed(ImGuiKey_G)) {
-		std::cout << "Settings Modal Key Pressed" << "\n";
-	}
 
 	ImGui::EndPopup();
 
