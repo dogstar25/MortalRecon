@@ -31,6 +31,7 @@ MRContactFilter::MRContactFilter()
 	m_contactMasks[DRONE_FRAME].set(SURVIVOR);
 	m_contactMasks[DRONE_FRAME].set(WALL);
 	m_contactMasks[DRONE_FRAME].set(DRONE_FRAME);
+	m_contactMasks[DRONE_FRAME].set(RADIATION_PARTICLE);
 
 	//DRONE_SHIELD
 	m_contactMasks[DRONE_SHIELD].reset();

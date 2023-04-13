@@ -139,7 +139,7 @@ void SurvivorBrainComponent::_doLost()
 		auto navStatus = navigationComponent->navigateTo(objectLocation.x, objectLocation.y);
 
 		if (navStatus == NavigationStatus::NO_PATH_FOUND) {
-			std::cout << "Survivor! No path was found for navigation!" << std::endl;
+			//std::cout << "Survivor! No path was found for navigation!" << std::endl;
 		}
 
 	}

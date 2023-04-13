@@ -23,7 +23,7 @@ namespace Colors {
 	inline SDL_Color MARINE = { 50, 147, 196, 255 };
 	inline SDL_Color SAPPHIRE = { 113, 197, 219, 255 };
 	inline SDL_Color TEAL = { 0, 71, 71, 255 };
-	inline SDL_Color ROBINEGG = { 0, 141, 141, 255 };
+	inline SDL_Color ROBINEGG = { 0, 141, 162, 255 };
 
 	//grey / dark
 	inline SDL_Color CHARCOAL = { 25, 25, 25, 255 };
