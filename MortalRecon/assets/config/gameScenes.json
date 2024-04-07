@@ -319,11 +319,6 @@
             ]
         },
         {
-            "id": "SCENE_GAMEOVER",
-            "inputControlMode": "CONTROL_MODE_PLAY",
-            "maxObjects": 500
-        },
-        {
             "id": "SCENE_NAVMAP",
             "inputControlMode": "CONTROL_MODE_IMGUI",
             "tags": [],
