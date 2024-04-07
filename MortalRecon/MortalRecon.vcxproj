@@ -79,27 +79,27 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>..\..\MobyDick_NEW\MobyDick\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)MobyDick\src</IncludePath>
-    <LibraryPath>..\..\MobyDick_NEW\MobyDick\x64\$(Configuration)\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\..\MobyDick-1.0\MobyDick\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)MobyDick\src</IncludePath>
+    <LibraryPath>..\..\MobyDick-1.0\MobyDick\x64\$(Configuration)\lib;$(LibraryPath)</LibraryPath>
     <OutDir>$(ProjectDir)$(Platform)\$(Configuration)\</OutDir>
     <CopyCppRuntimeToOutputDir>true</CopyCppRuntimeToOutputDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>..\..\MobyDick_NEW\MobyDick\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)MobyDick\src</IncludePath>
-    <LibraryPath>..\..\MobyDick_NEW\MobyDick\x64\$(Configuration)\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\..\MobyDick-1.0\MobyDick\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)MobyDick\src</IncludePath>
+    <LibraryPath>..\..\MobyDick-1.0\MobyDick\x64\$(Configuration)\lib;$(LibraryPath)</LibraryPath>
     <OutDir>$(ProjectDir)$(Platform)\$(Configuration)\</OutDir>
     <CopyCppRuntimeToOutputDir>true</CopyCppRuntimeToOutputDir>
   </PropertyGroup>
   <PropertyGroup Label="Vcpkg" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <VcpkgUseStatic>false</VcpkgUseStatic>
     <VcpkgCurrentInstalledDir>$(VcpkgRoot)\installed\$(VcpkgTriplet)\</VcpkgCurrentInstalledDir>
-    <VcpkgInstalledDir>..\..\MobyDick_NEW\MobyDick\vcpkg_installed\x64-windows</VcpkgInstalledDir>
+    <VcpkgInstalledDir>..\..\MobyDick-1.0\MobyDick\vcpkg_installed\x64-windows</VcpkgInstalledDir>
   </PropertyGroup>
   <PropertyGroup Label="Vcpkg" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <VcpkgUseStatic>false</VcpkgUseStatic>
     <VcpkgCurrentInstalledDir>$(VcpkgRoot)\installed\$(VcpkgTriplet)\</VcpkgCurrentInstalledDir>
-    <VcpkgInstalledDir>..\..\MobyDick_NEW\MobyDick\vcpkg_installed\x64-windows</VcpkgInstalledDir>
+    <VcpkgInstalledDir>..\..\MobyDick-1.0\MobyDick\vcpkg_installed\x64-windows</VcpkgInstalledDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
