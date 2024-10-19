@@ -6,7 +6,7 @@ class PistolFireAction : public Action
 public:
 	PistolFireAction() = default;
 
-	void perform(GameObject* gameObject) override;
+	void perform(GameObject* gameObject, b2Vec2 destination) override;
 
 private:
 

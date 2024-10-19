@@ -9,6 +9,6 @@ public:
 
 	ActorUseAction() = default;
 
-	void perform(GameObject* gameObject, int usageParm) override;
+	void perform(GameObject* gameObject, int usageParm, b2Vec2 destination) override;
 
 };

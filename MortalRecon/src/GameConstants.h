@@ -66,6 +66,7 @@ namespace ContactTag {
 	inline constexpr int PLAYER_PULSE_EXPLOSION = 38;
 	inline constexpr int RADIATION_PARTICLE = 39;
 	inline constexpr int CHECKPOINT = 40;
+	inline constexpr int BULLET_DESTINATION_OBJECT = 41;
 
 }
 
@@ -81,7 +82,7 @@ namespace ComponentTypes {
 	inline constexpr int SURVIVOR_BRAIN_COMPONENT = 30;
 	inline constexpr int GINA_PLAYER_CONTROL_COMPONENT = 31;
 	inline constexpr int GINA_VITALITY_COMPONENT = 32;
-
+	inline constexpr int PLAYER_BULLET_NAVIGATION_COMPONENT = 33;
 
 }
 

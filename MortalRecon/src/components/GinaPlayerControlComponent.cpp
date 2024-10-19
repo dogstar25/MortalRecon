@@ -85,7 +85,9 @@ void GinaPlayerControlComponent::handleMovement()
 
 	//Handle Mouse related movement
 	const uint32_t currentMouseStates = SDL_GetRelativeMouseState(&mouseX, &mouseY);
+	//const uint32_t currentMouseStates = SDL_GetMouseState(&mouseX, &mouseY);
 	float angularVelocity = mouseX * game->contextMananger()->getMouseSensitivity();
+	//float angularVelocity = mouseX * 1.5;
 
 	const auto& rotateAction = actionComponent->getAction(ACTION_ROTATE);
 	rotateAction->perform(parent(), angularVelocity);
@@ -93,6 +95,11 @@ void GinaPlayerControlComponent::handleMovement()
 }
 void GinaPlayerControlComponent::handleActions()
 {
+
+	std::shared_ptr<Action> action{};
+	//convenience reference to outside component(s)
+	const auto& actionComponent = parent()->getComponent<ActionComponent>(ComponentTypes::ACTION_COMPONENT);
+
 	//Get the current mouse state
 	int mouseX, mouseY;
 	auto mouseButtons = SDL_GetMouseState(&mouseX, &mouseY);
@@ -108,12 +115,21 @@ void GinaPlayerControlComponent::handleActions()
 		_sendWeaponChargeFlag(false);
 	}
 
+	//Handle rapid fire
+	if (m_isMouseHeldDown) {
+
+		if (m_rapidFireDelayTimer.hasMetTargetDuration()) {
+
+			action = actionComponent->getAction(ACTION_USE);
+			action->perform(parent(), ACTION_USAGE, {(float)mouseX, (float)mouseY});
+		}
+	}
+
+
 	if (SceneManager::instance().playerInputEvents().empty() == false) {
-		//convenience reference to outside component(s)
-		const auto& actionComponent = parent()->getComponent<ActionComponent>(ComponentTypes::ACTION_COMPONENT);
 
 		const Uint8* keyStates = nullptr;
-		std::shared_ptr<Action> action{};
+
 
 		for (auto& inputEvent : SceneManager::instance().playerInputEvents())
 		{
@@ -136,15 +152,15 @@ void GinaPlayerControlComponent::handleActions()
 
 					break;
 				case SDL_MOUSEBUTTONDOWN:
-					
-					if(m_state.test(PlayerState::boosting) == false){
-
-						if (mouseButtons & SDL_BUTTON_LMASK) {
-							action = actionComponent->getAction(ACTION_USE);
-							action->perform(parent(), ACTION_USAGE);
-						}
+				
+					//PlayerInputEvent& playerInputEvent = m_PlayerInputEvents.emplace_back();
+					//playerInputEvent.event = event;
+					if (inputEvent.event.button.button == SDL_BUTTON_LEFT) {
+						m_isMouseHeldDown = true;
 					}
+
 					break;
+				
 				case SDL_MOUSEBUTTONUP:
 
 					//If this is the right mouse button released, then fire the secondary weapon action
@@ -152,9 +168,13 @@ void GinaPlayerControlComponent::handleActions()
 					if (m_state.test(PlayerState::boosting) == false && inputEvent.event.button.button == SDL_BUTTON_RIGHT) {
 
 						action = actionComponent->getAction(ACTION_USE);
-						action->perform(parent(), ACTION_USAGE_SPECIAL);
+						action->perform(parent(), ACTION_USAGE_SPECIAL, { 0,0 });
 
 					}
+					if (inputEvent.event.button.button == SDL_BUTTON_LEFT) {
+						m_isMouseHeldDown = false;
+					}
+
 					break;
 
 				default:

@@ -112,7 +112,7 @@ void PistolWeaponComponent::fireSecondary(const b2Vec2& origin, const float& ang
 
 		soundComponent->playSound("PULSE_FIRE_SOUND");
 
-		WeaponComponent::fire(origin, angle, m_secondaryFireBulletPoolId, m_secondaryFireForce, m_secondaryFireColor);
+		WeaponComponent::fire(origin, angle, m_secondaryFireBulletPoolId, m_secondaryFireForce, m_secondaryFireColor, {0.0,0.0});
 		m_isFullyCharged = false;
 	}
 	else {

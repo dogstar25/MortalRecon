@@ -1072,6 +1072,42 @@
                     "absolutePositioning": false
                 }
             ]
+        },
+        {
+            "type": "BULLET_DESTINATION_OBJECT",
+            "traitTags": [ "abstract" ],
+            "description": "",
+            "components": [
+                {
+                    "id": "RENDER_COMPONENT"
+                },
+                {
+                    "id": "TRANSFORM_COMPONENT",
+                    "size": {
+                        "width": 4,
+                        "height": 4
+                    }
+                },
+                {
+                    "id": "VITALITY_COMPONENT",
+                    "lifetime": 2.0
+                },
+                {
+                    "id": "POOL_COMPONENT"
+                },
+                {
+                    "id": "PHYSICS_COMPONENT",
+                    "type": "B2_STATIC",
+                    "fixtures": [
+                        {
+                            "contactTag": "ContactTag::BULLET_DESTINATION_OBJECT",
+                            "collisionShape": "B2_BOX",
+                            "density": 0.1
+                        }
+                    ]
+
+                }
+            ]
         }
     ]
 }

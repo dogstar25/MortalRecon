@@ -41,6 +41,10 @@ private:
 	void _sendWeaponChargeFlag(const bool isCharging);
 
 	int m_jetPackSoundChannel{-1};
+
+	Timer m_rapidFireDelayTimer{ 0.1, true };
+
+	bool m_isMouseHeldDown{};
 };
 
 

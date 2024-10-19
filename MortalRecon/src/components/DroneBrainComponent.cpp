@@ -118,7 +118,7 @@ void DroneBrainComponent::_doEngage()
 			auto actionComponent = eyeGameObject->getComponent<ActionComponent>(ComponentTypes::ACTION_COMPONENT);
 
 			const auto& action = actionComponent->getAction(ACTION_USAGE);
-			action->perform(eyeGameObject.get());
+			action->perform(eyeGameObject.get(), targetLoc);
 		}
 
 		//Instead, get the weapon component and execute fire - PROPOSAL FOR ACTIONcOMPONENT CHANGES

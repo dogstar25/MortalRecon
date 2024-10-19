@@ -33,6 +33,7 @@ MREnumMap::MREnumMap()
 	addEnumItem("ContactTag::PLAYER_PULSE_EXPLOSION", ContactTag::PLAYER_PULSE_EXPLOSION);
 	addEnumItem("ContactTag::RADIATION_PARTICLE", ContactTag::RADIATION_PARTICLE);
 	addEnumItem("ContactTag::CHECKPOINT", ContactTag::CHECKPOINT);
+	
 
 	//Custom Component Types
 	addEnumItem("BRAIN_DRONE_COMPONENT", ComponentTypes::BRAIN_DRONE_COMPONENT);
@@ -41,6 +42,7 @@ MREnumMap::MREnumMap()
 	addEnumItem("SURVIVOR_BRAIN_COMPONENT", ComponentTypes::SURVIVOR_BRAIN_COMPONENT);
 	addEnumItem("GINA_PLAYER_CONTROL_COMPONENT", ComponentTypes::GINA_PLAYER_CONTROL_COMPONENT);
 	addEnumItem("GINA_VITALITY_COMPONENT", ComponentTypes::GINA_VITALITY_COMPONENT);
+	addEnumItem("PLAYER_BULLET_NAVIGATION_COMPONENT", ComponentTypes::PLAYER_BULLET_NAVIGATION_COMPONENT);
 
 	//Custom Status/Context Item Types
 	addEnumItem("StatusItemId::PLAYERS_HEART_COUNT", StatusItemId::PLAYERS_HEART_COUNT);
