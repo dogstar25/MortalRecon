@@ -1,6 +1,7 @@
 #pragma once
 #include "MobyDick.h"
 
+
 namespace Colors {
 
 	inline SDL_Color NOCOLOR = { 0, 0, 0, 0 };
