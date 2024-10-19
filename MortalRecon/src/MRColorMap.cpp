@@ -1,6 +1,7 @@
 #include "MRColorMap.h"
 #include "GameConstants.h"
 
+
 MRColorMap::MRColorMap()
 {
 
