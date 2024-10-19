@@ -17,8 +17,8 @@ jobs:
     if: github.event.pull_request.merged == true
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3  # Check out the repo to work with the code
-
+        uses: actions/checkout@master
+        
       - name: Set up Git
         run: |
           git config --global user.name "github-actions[bot]"
