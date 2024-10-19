@@ -1,4 +1,4 @@
- #pragma once
+#pragma once
 #include "MobyDick.h"
 
 namespace Colors {
