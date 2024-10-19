@@ -8,7 +8,10 @@ on:
       - closed
     branches:
       - master
-
+      
+permissions:
+  contents: write  # Grant permission to push changes (tags)
+  
 jobs:
   TagOnPR:
     name: Tag on Pull Request merge
