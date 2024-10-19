@@ -12,10 +12,10 @@
 #include "HealthStationInteraction.h"
 #include "ActorMoveAction.h"
 #include "ActorRotateAction.h"
+#include "ActorRotateDirectAngleAction.h"
 #include "ActorUseAction.h"
 #include "PistolFireAction.h"
 #include "PistolSecondaryFireAction.h"
-
 
 #include <iostream>
 
@@ -67,6 +67,10 @@ std::shared_ptr<Action> MRActionFactory::create(std::string actionType)
 	else if (actionType == "ActorRotate") {
 
 		action = std::make_shared<ActorRotateAction>();
+	}
+	else if (actionType == "ActorRotateDirectAngle") {
+
+		action = std::make_shared<ActorRotateDirectAngleAction>();
 	}
 	else if (actionType == "PistolFire") {
 

@@ -9,7 +9,7 @@ void TurretFireAction::perform(GameObject* gameObject)
 	b2Vec2 position = physicsComponent->position();
 	float angle = physicsComponent->angle();
 	
-	weaponComponent->fire(position, angle);
+	weaponComponent->fire(position, angle, { 0.0,0.0 });
 
 	if (gameObject->hasComponent(ComponentTypes::SOUND_COMPONENT) == true) {
 

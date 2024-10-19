@@ -287,4 +287,24 @@ namespace ParticleEffects {
 			.particleSpawnCountMin = 3,
 			.particleSpawnCountMax = 7
 	};
+
+	static const ParticleEffect explosion1 = {
+			.poolId = "EXPLOSION1_POOL",
+			.originMin = {0,0},
+			.originMax = {0,0},
+			.forceMin = 0,
+			.forceMax = 0,
+			.lifetimeMin = 0.5,
+			.lifetimeMax = 0.5,
+			.alphaFade = true,
+			.angleMin = 0,
+			.angleMax = 0,
+			.particleSizeMin = 64,
+			.particleSizeMax = 128,
+			.colorRangeBegin = {180,10,0,100},
+			.colorRangeEnd = {255,100,76,255},
+			.particleSpawnCountMin = 1,
+			.particleSpawnCountMax = 1
+	};
+
 }

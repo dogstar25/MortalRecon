@@ -121,7 +121,7 @@ void MRContactListener::_playerBullet_enemyTurret(GameObject* playerBullet, Game
 	auto bulletVitality = playerBullet->getComponent<VitalityComponent>(ComponentTypes::VITALITY_COMPONENT);
 
 	auto bulletForce = bulletVitality->attackPower();
-
+	playerBullet->setRemoveFromWorld(true);
 	bool turretDead = turretVitalityComponent->inflictDamage(bulletForce);
 	if (turretDead) {
 
@@ -189,11 +189,17 @@ void MRContactListener::_bullet_wall(GameObject* bullet, GameObject* wall, b2Vec
 	const auto& particleComponent = particleEmitterObject->getComponent<ParticleComponent>(ComponentTypes::PARTICLE_X_COMPONENT);
 	particleComponent->addParticleEffect(ParticleEffects::ricochet);
 	particleComponent->addParticleEffect(ParticleEffects::spark);
+	particleComponent->addParticleEffect(ParticleEffects::explosion1);
+
 
 	//Convert from box2d to gameWorld coordinates
 	contactPoint.x *= GameConfig::instance().scaleFactor();
 	contactPoint.y *= GameConfig::instance().scaleFactor();
 	particleEmitterObject->setPosition(contactPoint.x, contactPoint.y);
+
+	//Explosion Object
+	//auto explosionObject = SceneManager::instance().addGameObject("PARTICLE_EXPLOSION_1", GameLayer::MAIN, -1, -1);
+	//explosionObject->setPosition(contactPoint.x, contactPoint.y);
 
 	//Set flag for removal for the Bullet
 	bullet->setRemoveFromWorld(true);
@@ -535,6 +541,27 @@ void MRContactListener::_player_checkpoint(GameObject* player, GameObject* check
 
 }
 
+//void MRContactListener::_bullet_bulletDestination(GameObject* bullet, GameObject* bulletDestination, b2Vec2 contactPoint)
+//{
+//
+//	//Build a One-Time particle emitter object
+//	auto particleEmitterObject = SceneManager::instance().addGameObject("PARTICLE_X_EMITTER", GameLayer::MAIN, -1, -1);
+//	const auto& particleComponent = particleEmitterObject->getComponent<ParticleComponent>(ComponentTypes::PARTICLE_X_COMPONENT);
+//	particleComponent->addParticleEffect(ParticleEffects::ricochet);
+//	particleComponent->addParticleEffect(ParticleEffects::spark);
+//
+//	//Convert from box2d to gameWorld coordinates
+//	contactPoint.x *= GameConfig::instance().scaleFactor();
+//	contactPoint.y *= GameConfig::instance().scaleFactor();
+//	particleEmitterObject->setPosition(contactPoint.x, contactPoint.y);
+//
+//	//Set flag for removal for the Bullet
+//	bullet->setRemoveFromWorld(true);
+//	bulletDestination->setRemoveFromWorld(true);
+//
+//}
+
+
 void MRContactListener::BeginContact(b2Contact* contact) {
 
 	b2WorldManifold worldManifold;
@@ -817,6 +844,21 @@ void MRContactListener::handleContact(b2Contact* contact, b2Vec2 contactPoint)
 		}
 
 	}
+
+	///////////////////////////////////
+	// Bullet - BulletDestinationObject
+	///////////////////////////////////
+	/*if ((contactTag1 == ContactTag::PLAYER_BULLET && contactTag2 == ContactTag::BULLET_DESTINATION_OBJECT) ||
+		(contactTag2 == ContactTag::PLAYER_BULLET && contactTag1 == ContactTag::BULLET_DESTINATION_OBJECT)) {
+
+		if (contactTag1 == ContactTag::PLAYER_BULLET) {
+			_bullet_bulletDestination(contact1, contact2, contactPoint);
+		}
+		else {
+			_bullet_bulletDestination(contact2, contact1, contactPoint);
+		}
+
+	}*/
 
 }
 

@@ -146,11 +146,13 @@
       <FloatingPointModel>Fast</FloatingPointModel>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>MobyDick.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>MobyDick-1.0.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <Profile>true</Profile>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <NoEntryPoint>false</NoEntryPoint>
@@ -179,13 +181,15 @@
       <FloatingPointModel>Fast</FloatingPointModel>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>MobyDick.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>MobyDick-1.0.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <NoEntryPoint>false</NoEntryPoint>
       <EntryPointSymbol>
@@ -196,6 +200,7 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\actions\ActorRotateDirectAngleAction.cpp" />
     <ClCompile Include="src\actions\ActorBoostAction.cpp" />
     <ClCompile Include="src\actions\ActorMoveAction.cpp" />
     <ClCompile Include="src\actions\ActorRotateAction.cpp" />
@@ -212,6 +217,7 @@
     <ClCompile Include="src\components\GinaVitalityComponent.cpp" />
     <ClCompile Include="src\components\PistolWeaponComponent.cpp" />
     <ClCompile Include="src\components\GinaPlayerControlComponent.cpp" />
+    <ClCompile Include="src\components\PlayerBulletNavigationComponent.cpp" />
     <ClCompile Include="src\components\SurvivorBrainComponent.cpp" />
     <ClCompile Include="src\components\TurretBrainComponent.cpp" />
     <ClCompile Include="src\cutScenes\CutSceneDiscoverTreasure.cpp" />
@@ -359,6 +365,7 @@
     <Font Include="assets\fonts\Roboto-Medium.ttf" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\actions\ActorRotateDirectAngleAction.h" />
     <ClInclude Include="src\actions\ActorBoostAction.h" />
     <ClInclude Include="src\actions\ActorMoveAction.h" />
     <ClInclude Include="src\actions\ActorRotateAction.h" />
@@ -376,6 +383,7 @@
     <ClInclude Include="src\components\GinaVitalityComponent.h" />
     <ClInclude Include="src\components\PistolWeaponComponent.h" />
     <ClInclude Include="src\components\GinaPlayerControlComponent.h" />
+    <ClInclude Include="src\components\PlayerBulletNavigationComponent.h" />
     <ClInclude Include="src\components\SurvivorBrainComponent.h" />
     <ClInclude Include="src\components\TurretBrainComponent.h" />
     <ClInclude Include="src\cutScenes\CutSceneDiscoverTreasure.h" />

@@ -3,6 +3,7 @@
         {
             "id": "SCENE_TITLE_SCREEN",
             "inputControlMode": "CONTROL_MODE_SELECT",
+            "mouseCursor": "CURSOR_ARROW",
             "backgroundMusicId": "MUSIC_MAIN_THEME_A",
             "maxObjects": 500,
             "keyActions": [
@@ -76,7 +77,8 @@
         },
         {
             "id": "SCENE_PLAY",
-            "inputControlMode": "CONTROL_MODE_PLAY",
+            "inputControlMode": "CONTROL_MODE_PLAY_WITH_CURSOR",
+            "mouseCursor": "CURSOR_RETICLE",
             "maxObjects": 7000,
             "gameObjects": [
                 {
@@ -122,7 +124,7 @@
                         "action": "SCENE_ACTION_ADD_AND_PAUSE",
                         "actionId": "SCENE_PAUSE_MENU"
                     }
-                }
+                },
                 //{
                 //    "keyCode": "SDLK_F1",
                 //    "sceneAction": {
@@ -144,13 +146,13 @@
                 //        "actionId": "DebugSceneSettings::SHOW_NAVIGATION_DEBUG_MAP"
                 //    }
                 //},
-                //{
-                //    "keyCode": "SDLK_F4",
-                //    "sceneAction": {
-                //        "action": "SCENE_ACTION_TOGGLE_SETTING",
-                //        "actionId": "DebugSceneSettings::SHOW_PHYSICS_DEBUG"
-                //    }
-                //}
+                {
+                    "keyCode": "SDLK_F4",
+                    "sceneAction": {
+                        "action": "SCENE_ACTION_TOGGLE_SETTING",
+                        "actionId": "DebugSceneSettings::SHOW_PHYSICS_DEBUG"
+                    }
+                }
 
             ],
             "gameObjectPools": [
@@ -170,7 +172,13 @@
                     "id": "PLAYER_BULLET_POOL",
                     "gameObjectType": "PLAYER_BULLET",
                     "lifetime": 1.25,
-                    "maxItems": 50
+                    "maxItems": 500
+                },
+                {
+                    "id": "PLAYER_BULLET2_POOL",
+                    "gameObjectType": "PLAYER_BULLET2",
+                    "lifetime": 1.25,
+                    "maxItems": 150
                 },
                 {
                     "id": "ENEMY_BULLET_POOL",
@@ -211,13 +219,19 @@
                 {
                     "id": "RADIATION_POOL",
                     "gameObjectType": "PARTICLE_RADIATION",
-                    "lifetime": 2.25,
+                    "lifetime": 0.0,
                     "maxItems": 2000
                 },
                 {
                     "id": "GIBS_POOL",
                     "gameObjectType": "PLAYER_GIB",
                     "lifetime": 2.25,
+                    "maxItems": 50
+                },
+                {
+                    "id": "EXPLOSION1_POOL",
+                    "gameObjectType": "PARTICLE_EXPLOSION_1",
+                    "lifetime": 0.6,
                     "maxItems": 50
                 }
 
@@ -235,12 +249,14 @@
         },
         {
             "id": "SCENE_GAMEOVER",
-            "inputControlMode": "CONTROL_MODE_PLAY",
+            "inputControlMode": "CONTROL_MODE_PLAY_WITH_CURSOR",
+            "mouseCursor": "CURSOR_ARROW",
             "maxObjects": 500
         },
         {
             "id": "SCENE_LEVEL_COMPLETE",
-            "inputControlMode": "CONTROL_MODE_IMGUI",
+            "inputControlMode": "CONTROL_MODE_SELECT",
+            "mouseCursor": "CURSOR_ARROW",
             "tags": [ "gui" ],
             "maxObjects": 24,
             "gameObjects": [
@@ -260,6 +276,7 @@
         {
             "id": "SCENE_PLAYER_DEATH",
             "inputControlMode": "CONTROL_MODE_SELECT",
+            "mouseCursor": "CURSOR_ARROW",
             "maxObjects": 5,
             "gameObjects": [
                 {
@@ -274,6 +291,7 @@
         {
             "id": "SCENE_YOU_WIN",
             "inputControlMode": "CONTROL_MODE_SELECT",
+            "mouseCursor": "CURSOR_ARROW",
             "maxObjects": 5,
             "gameObjects": [
                 {
@@ -287,7 +305,8 @@
         },
         {
             "id": "SCENE_PAUSE_MENU",
-            "inputControlMode": "CONTROL_MODE_IMGUI",
+            "inputControlMode": "CONTROL_MODE_SELECT",
+            "mouseCursor": "CURSOR_ARROW",
             "maxObjects": 24,
             "tags": [ "gui" ],
             "gameObjects": [
@@ -313,6 +332,7 @@
         {
             "id": "SCENE_AREYOUSURE_MENU",
             "inputControlMode": "CONTROL_MODE_SELECT",
+            "mouseCursor": "CURSOR_ARROW",
             "maxObjects": 24,
             "tags": [
                 "SCENETAG_MENU"
@@ -320,13 +340,15 @@
         },
         {
             "id": "SCENE_NAVMAP",
-            "inputControlMode": "CONTROL_MODE_IMGUI",
+            "inputControlMode": "CONTROL_MODE_SELECT",
+            "mouseCursor": "CURSOR_ARROW",
             "tags": [],
             "maxObjects": 3000
         },
         {
             "id": "SCENE_TEST",
-            "inputControlMode": "CONTROL_MODE_PLAY",
+            "inputControlMode": "CONTROL_MODE_PLAY_WITH_CURSOR",
+            "mouseCursor": "CURSOR_RETICLE",
             "maxObjects": 8000,
             "gameObjects": [
                 {

@@ -274,6 +274,10 @@
             "checkPointContact": false,
             "layer": "GameLayer::ABSTRACT"
         }
+        //{
+        //    "id": "LOC_0017_0008",
+        //    "gameObjectType": "PARTICLE_EXPLOSION_1"
+        //}
 
     ]
 }

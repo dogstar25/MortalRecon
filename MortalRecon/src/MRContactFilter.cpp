@@ -159,7 +159,6 @@ MRContactFilter::MRContactFilter()
 	m_contactMasks[WALL].set(PLAYER_PULSE_BULLET);
 	m_contactMasks[WALL].set(PLAYER_PULSE_EXPLOSION);
 
-	
 	//BUTTONS
 	m_contactMasks[BUTTON].reset();
 	m_contactMasks[BUTTON].set(PLAYER_TOUCH);

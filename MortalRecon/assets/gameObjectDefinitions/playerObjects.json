@@ -91,18 +91,6 @@
                     ]
                 },
                 {
-                    "id": "CHILDREN_COMPONENT",
-                    "childPadding": 0,
-                    "childPositionRelative": false,
-                    "childObjects": [
-                        {
-                            "gameObjectType": "PLAYER_LABEL_2",
-                            "locationSlot": 1
-                        }
-
-                    ]
-                },
-                {
                     "id": "ATTACHMENTS_COMPONENT",
                     "attachments": [
                         {
@@ -145,7 +133,7 @@
                         },
                         {
                             "actionId": "ACTION_ROTATE",
-                            "actionClass": "ActorRotate"
+                            "actionClass": "ActorRotateDirectAngle"
                         },
                         {
                             "actionId": "ACTION_USE",
@@ -322,19 +310,19 @@
                             "level": 1,
                             "force": 1,
                             "color": "Colors::GREEN",
-                            "bulletPoolId": "PLAYER_BULLET_POOL"
+                            "bulletPoolId": "PLAYER_BULLET2_POOL"
                         },
                         {
                             "level": 2,
                             "force": 2,
-                            "color": "Colors::GREEN",
-                            "bulletPoolId": "PLAYER_BULLET_POOL"
+                            "color": "Colors::YELLOW",
+                            "bulletPoolId": "PLAYER_BULLET2_POOL"
                         },
                         {
                             "level": 3,
                             "force": 5,
                             "color": "Colors::RED",
-                            "bulletPoolId": "PLAYER_BULLET_POOL"
+                            "bulletPoolId": "PLAYER_BULLET2_POOL"
                         }
                     ]
                 },

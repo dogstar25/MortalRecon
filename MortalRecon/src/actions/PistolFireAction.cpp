@@ -1,6 +1,6 @@
 #include "PistolFireAction.h"
 
-void PistolFireAction::perform(GameObject* gameObject)
+void PistolFireAction::perform(GameObject* gameObject, b2Vec2 destination)
 {
 
 	const auto& weaponComponent = gameObject->getComponent<WeaponComponent>(ComponentTypes::WEAPON_COMPONENT);
@@ -27,6 +27,12 @@ void PistolFireAction::perform(GameObject* gameObject)
 		angle = util::degreesToRadians(transformComponent->angle());
 	}
 	
-	weaponComponent->fire(position, angle);
+	//Create an object in the clicked location for the bullets destination
+	SDL_FPoint fixedDestination = util::screenToWorldPosition({ destination.x, destination.y });
+	//auto destinationObject = SceneManager::instance().addGameObject("BULLET_DESTINATION_OBJECT", GameLayer::MAIN, -1, -1);
+	//destinationObject->setPosition(worldPosition.x, worldPosition.y);
+
+
+	weaponComponent->fire(position, angle, fixedDestination);
 
 }

@@ -333,6 +333,17 @@
             }
         },
         {
+            "id": "TX_PLAYER_BULLET2",
+            "description": "Bullet 2",
+            "atlas": "TEXTURE_ATLAS_0",
+            "quadPosition": {
+                "x": 596,
+                "y": 56,
+                "width": 208,
+                "height": 32
+            }
+        },
+        {
             "id": "TX_ENEMY_BULLET",
             "description": "Bullet 2",
             "atlas": "TEXTURE_ATLAS_0",
@@ -807,6 +818,39 @@
                 "width": 8,
                 "height": 8
             }
+        },
+        {
+            "id": "TX_MOUSE_CURSOR_ARROW",
+            "description": "Arrow Cursor",
+            "atlas": "TEXTURE_ATLAS_0",
+            "quadPosition": {
+                "x": 392,
+                "y": 336,
+                "width": 64,
+                "height": 64
+            }
+        },
+        {
+            "id": "TX_MOUSE_CURSOR_RETICLE",
+            "description": "Reticle Cursor",
+            "atlas": "TEXTURE_ATLAS_0",
+            "quadPosition": {
+                "x": 458,
+                "y": 336,
+                "width": 64,
+                "height": 64
+            }
+        },
+        {
+            "id": "TX_EXPLOSION_1",
+            "description": "Explosion 1",
+            "atlas": "TEXTURE_ATLAS_0",
+            "quadPosition": {
+                "x": 2528,
+                "y": 268,
+                "width": 576,
+                "height": 64
+            }
         }
 
     ],
@@ -825,6 +869,24 @@
             "id": "FONT_CONTHRAX",
             "description": "Droid Sans",
             "filename": "assets/fonts/conthrax-sb.ttf"
+        }
+    ],
+    "mouseCursors": [
+        {
+            "id": "CURSOR_ARROW",
+            "textureId": "TX_MOUSE_CURSOR_ARROW",
+            "hotSpot": {
+                "x": 25,
+                "y": 2
+            }
+        },
+        {
+            "id": "CURSOR_RETICLE",
+            "textureId": "TX_MOUSE_CURSOR_RETICLE",
+            "hotSpot": {
+                "x": 32,
+                "y": 32
+            }
         }
     ]
 
