@@ -33,6 +33,7 @@ namespace Colors {
 
 }
 
+
 namespace ContactTag {
 	
 	inline constexpr int SMOKE_PARTICLE = 10;
