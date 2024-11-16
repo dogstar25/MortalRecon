@@ -297,7 +297,7 @@
                 {
                     "id": "WEAPON_PISTOL_COMPONENT",
                     "fireOffset": -0.5,
-                    "levelUpIncrement": 50,
+                    "levelUpIncrement": 120,
                     "secondaryFire": {
                         "radius": 20,
                         "chargeTime": 1.5,

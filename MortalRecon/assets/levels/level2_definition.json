@@ -76,9 +76,9 @@
         },
         {
             "id": "StatusItemId::ENEMY_DRONE_COUNT",
-            "initialValue": 3,
+            "initialValue": 7,
             "minValue": 0,
-            "maxValue": 3
+            "maxValue": 7
         }
 
 
@@ -138,26 +138,24 @@
             "cameraFollow": true
         },
         {
-            "id": "LOC_0013_0006",
-            "gameObjectType": "PLAYER_BULLET2"
-        },
-        {
             "id": "LOC_0051_0027",
             "gameObjectType": "DRONE2",
-            "name": "EnemyA",
-            "compositePieceLevelCap": 1
+            "name": "EnemyA"
         },
         {
             "id": "LOC_0052_0027",
             "gameObjectType": "DRONE2",
-            "name": "EnemyB",
-            "compositePieceLevelCap": 1
+            "name": "EnemyB"
         },
         {
             "id": "LOC_0038_0006",
             "gameObjectType": "DRONE2",
-            "name": "EnemyZ",
-            "compositePieceLevelCap": 1
+            "name": "EnemyZ"
+        },
+        {
+            "id": "LOC_0040_0006",
+            "gameObjectType": "DRONE2",
+            "name": "EnemyC"
         },
         {
             "id": "LOC_0089_0013",

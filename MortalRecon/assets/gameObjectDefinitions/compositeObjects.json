@@ -44,7 +44,7 @@
                     "id": "VITALITY_COMPONENT",
                     "resistance": 0,
                     "regenerating": {
-                        "regenerateSpeed": 1.8,
+                        "regenerateSpeed": 1.0,
                         "hideWhenBroken": true,
                         "levels": [
                             {
@@ -111,7 +111,7 @@
                     "id": "VITALITY_COMPONENT",
                     "resistance": 0,
                     "regenerating": {
-                        "regenerateSpeed": 1.8,
+                        "regenerateSpeed": 0.5,
                         "hideWhenBroken": true,
                         "levels": [
                             {
@@ -178,7 +178,7 @@
                     "id": "VITALITY_COMPONENT",
                     "resistance": 0,
                     "regenerating": {
-                        "regenerateSpeed": 1.8,
+                        "regenerateSpeed": 0.5,
                         "hideWhenBroken": true,
                         "levels": [
                             {
@@ -245,7 +245,7 @@
                     "id": "VITALITY_COMPONENT",
                     "resistance": 0,
                     "regenerating": {
-                        "regenerateSpeed": 1.8,
+                        "regenerateSpeed": 0.5,
                         "hideWhenBroken": true,
                         "levels": [
                             {
@@ -312,7 +312,7 @@
                     "id": "VITALITY_COMPONENT",
                     "resistance": 0,
                     "regenerating": {
-                        "regenerateSpeed": 1.8,
+                        "regenerateSpeed": 0.5,
                         "hideWhenBroken": true,
                         "levels": [
                             {
