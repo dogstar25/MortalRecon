@@ -165,6 +165,9 @@
     <ClCompile Include="src\components\PlayerBulletNavigationComponent.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\IMGui\IMGuiScoreHud.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="assets\blueprints\drone1_blueprint.png">
@@ -507,6 +510,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\components\PlayerBulletNavigationComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IMGui\IMGuiScoreHud.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

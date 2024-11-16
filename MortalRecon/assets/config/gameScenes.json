@@ -108,6 +108,17 @@
                     }
                 },
                 {
+                    "gameObjectType": "IMGUI_SCORE_HUD",
+                    "layer": "GameLayer::GUI",
+                    "location": {
+                        "windowPosition": "PositionAlignment::TOP_CENTER",
+                        "adjust": {
+                            "x": 156,
+                            "y": 48
+                        }
+                    }
+                },
+                {
                     "gameObjectType": "METEOR_EMITTER",
                     "layer": "GameLayer::BACKGROUND_1",
                     "location": {

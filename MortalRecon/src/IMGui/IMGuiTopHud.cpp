@@ -29,9 +29,6 @@ IMGuiTopHud::IMGuiTopHud(std::string gameObjectType, b2Vec2 padding, Scene* pare
 	m_hudBlue = util::SDLColorToImVec4(blue);
 
 
-	//testObject = std::make_shared<GameObject>("SWORDLADY", -1.0F, -1.0F, 0.F, parentScene);
-
-
 }
 
 glm::vec2 IMGuiTopHud::render()

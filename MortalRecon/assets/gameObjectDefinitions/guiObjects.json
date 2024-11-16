@@ -106,6 +106,40 @@
                         "backgroundAlpha": 150,
                         "text": "Colors::WHITE"
                     },
+                    "autoSize": true
+
+                }
+            ]
+
+        },
+        {
+            "type": "IMGUI_SCORE_HUD",
+            "traitTags": [ "abstract" ],
+            "components": [
+                {
+                    "id": "RENDER_COMPONENT"
+                },
+                {
+                    "id": "TRANSFORM_COMPONENT",
+                    "size": {
+                        "width": 255,
+                        "height": 130
+                    },
+                    "absolutePositioning": true
+
+                },
+                {
+                    "id": "IMGUI_COMPONENT",
+                    "imguiType": "IMGuiScore",
+                    "padding": {
+                        "x": 24,
+                        "y": 24
+                    },
+                    "color": {
+                        "background": "Colors::CHARCOAL",
+                        "backgroundAlpha": 150,
+                        "text": "Colors::WHITE"
+                    },
                     "autoSize": false
 
                 }
