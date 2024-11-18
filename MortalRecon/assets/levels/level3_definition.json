@@ -160,7 +160,8 @@
         },
         {
             "id": "LOC_0019_0025",
-            "gameObjectType": "DRONE2"
+            "gameObjectType": "DRONE3",
+            "compositePieceLevelCap": 1
         },
         {
             "id": "LOC_0048_0002",

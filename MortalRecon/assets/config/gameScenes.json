@@ -448,13 +448,19 @@
                     "id": "PLAYER_BULLET_POOL",
                     "gameObjectType": "PLAYER_BULLET",
                     "lifetime": 1.25,
-                    "maxItems": 25
+                    "maxItems": 500
+                },
+                {
+                    "id": "PLAYER_BULLET2_POOL",
+                    "gameObjectType": "PLAYER_BULLET2",
+                    "lifetime": 1.25,
+                    "maxItems": 150
                 },
                 {
                     "id": "ENEMY_BULLET_POOL",
                     "gameObjectType": "ENEMY_BULLET",
                     "lifetime": 1.25,
-                    "maxItems": 200
+                    "maxItems": 50
                 },
                 {
                     "id": "DEFLECT1_POOL",
@@ -489,13 +495,19 @@
                 {
                     "id": "RADIATION_POOL",
                     "gameObjectType": "PARTICLE_RADIATION",
-                    "lifetime": 2.25,
-                    "maxItems": 5000
+                    "lifetime": 0.0,
+                    "maxItems": 2000
                 },
                 {
                     "id": "GIBS_POOL",
                     "gameObjectType": "PLAYER_GIB",
                     "lifetime": 2.25,
+                    "maxItems": 50
+                },
+                {
+                    "id": "EXPLOSION1_POOL",
+                    "gameObjectType": "PARTICLE_EXPLOSION_1",
+                    "lifetime": 0.6,
                     "maxItems": 50
                 }
 

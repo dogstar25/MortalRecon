@@ -2,7 +2,7 @@
     "gameObjects": [
         {
             "type": "DRONE",
-            "traitTags": ["mobile"],
+            "traitTags": [ "mobile" ],
             "components": [
                 {
                     "id": "RENDER_COMPONENT",
@@ -358,11 +358,11 @@
                 {
                     "id": "BRAIN_DRONE_COMPONENT",
                     "sightSensorSize": 25,
-                    "detectObjectTraits": [ "player","objective", "barrier", "mobile" ]
+                    "detectObjectTraits": [ "player", "objective", "barrier", "mobile" ]
                 },
                 {
                     "id": "VITALITY_COMPONENT",
-                    "speed": 20.0,
+                    "speed": 15.0,
                     "rotationSpeed": 20
                 },
                 {
@@ -509,6 +509,185 @@
                             "soundAssetId": "SFX_LASER_004"
                         }
                     ]
+                }
+            ]
+        },
+
+        {
+            "type": "DRONE3",
+            "traitTags": [ "mobile" ],
+            "components": [
+                {
+                    "id": "RENDER_COMPONENT",
+                    "textureId": "TX_CLEAR_QUAD"
+                },
+                {
+                    "id": "TRANSFORM_COMPONENT",
+                    "size": {
+                        "width": 64,
+                        "height": 64
+                    },
+                    "absolutePositioning": false
+                },
+                {
+                    "id": "PHYSICS_COMPONENT",
+                    "type": "B2_DYNAMIC",
+                    "anchorPoint": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "fixtures": [
+                        {
+                            "contactTag": "ContactTag::DRONE_FRAME",
+                            "collisionShape": "B2_CIRCLE",
+                            "collisionRadius": 1.28,
+                            "density": 2000.5
+                        }
+                    ]
+                },
+                {
+                    "id": "ATTACHMENTS_COMPONENT",
+                    "attachments": [
+                        {
+                            "id": "DRONE_EYE",
+                            "gameObjectType": "DRONE2_EYE",
+                            "attachLocation": {
+                                "x": 0.0,
+                                "y": 0.0
+                            },
+                            "addToInventory": false,
+                            "attachB2JointType": "B2_REVOLUTE"
+                        },
+                        {
+                            "id": "DRONE_BRAIN",
+                            "gameObjectType": "DRONE3_BRAIN",
+                            "attachLocation": {
+                                "x": 0.0,
+                                "y": 0.0
+                            },
+                            "addToInventory": false,
+                            "attachB2JointType": "B2_WELD"
+                        }
+                    ]
+                },
+                {
+                    "id": "ACTION_COMPONENT",
+                    "actions": [
+                        {
+                            "actionId": "ACTION_MOVE",
+                            "actionClass": "DroneMove"
+                        },
+                        {
+                            "actionId": "ACTION_ROTATE",
+                            "actionClass": "DefaultRotate"
+                        }
+                    ]
+                },
+                {
+                    "id": "COMPOSITE_COMPONENT",
+                    "physicsWeldPiecesOn": true,
+                    "blueprint": {
+                        "texture": "TX_DRONE2_BLUEPRINT",
+                        "legend": [
+                            {
+                                "gameObjectType": "FULL_PIECE",
+                                "color": "Colors::BLUE"
+                            },
+                            {
+                                "gameObjectType": "ANGLE1_PIECE",
+                                "color": "Colors::RED"
+                            },
+                            {
+                                "gameObjectType": "ANGLE2_PIECE",
+                                "color": "Colors::YELLOW"
+                            },
+                            {
+                                "gameObjectType": "ANGLE3_PIECE",
+                                "color": "Colors::GREEN"
+                            },
+                            {
+                                "gameObjectType": "ANGLE4_PIECE",
+                                "color": "Colors::PURPLE"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "BRAIN_DRONE_COMPONENT",
+                    "sightSensorSize": 25,
+                    "detectObjectTraits": [ "player", "objective", "barrier", "mobile" ]
+                },
+                {
+                    "id": "VITALITY_COMPONENT",
+                    "speed": 20.0,
+                    "rotationSpeed": 20
+                },
+                {
+                    "id": "NAVIGATION_COMPONENT",
+                    "passageFitSizeCategory": "NavigationSizeCategory::MEDIUM"
+                },
+                {
+                    "id": "SOUND_COMPONENT",
+                    "sounds": [
+                        {
+                            "id": "OPERATING_SOUND",
+                            "soundAssetId": "SFX_DRONE_MOVING_1",
+                            "distanceSensitive": true,
+                            "continuous": true,
+                            "soundRange": 2000
+                        },
+                        {
+                            "id": "DESTROYED_SOUND",
+                            "soundAssetId": "SFX_TURRET_EXPLODE_1"
+                        },
+                        {
+                            "id": "DEFLECT_SOUND",
+                            "soundAssetId": "SFX_RETRO_IMPACT_DEFLECT_16"
+                        },
+                        {
+                            "id": "IMPACTED_SOUND",
+                            "soundAssetId": "SFX_IMPACT_1"
+                        }
+                    ]
+                }
+
+            ]
+        },
+        {
+            "type": "DRONE3_BRAIN",
+            "traitTags": [],
+            "description": "Drone Brain",
+            "components": [
+                {
+                    "id": "RENDER_COMPONENT",
+                    "textureId": "TX_DRONE_BRAIN_64",
+                    "color": {
+                        "tint": "Colors::GOLD",
+                        "alpha": 255
+                    }
+                },
+                {
+                    "id": "TRANSFORM_COMPONENT",
+                    "size": {
+                        "width": 16,
+                        "height": 16
+                    }
+                },
+                {
+                    "id": "PHYSICS_COMPONENT",
+                    "type": "B2_DYNAMIC",
+                    "fixtures": [
+                        {
+                            "contactTag": "ContactTag::DRONE_BRAIN",
+                            "collisionShape": "B2_CIRCLE",
+                            "collisionRadius": 0.32,
+                            "density": 1.0
+                        }
+                    ]
+                },
+                {
+                    "id": "VITALITY_COMPONENT",
+                    "resistance": 1
                 }
             ]
         },
