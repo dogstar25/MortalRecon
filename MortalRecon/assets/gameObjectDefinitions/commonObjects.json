@@ -960,6 +960,7 @@
                     "type": "B2_DYNAMIC",
                     "linearDamping": 4.0,
                     "angularDamping": 3.0,
+                    "touchingObjectsCapturedRequired": false,
                     "fixtures": [
                         {
                             "contactTag": "ContactTag::GENERAL_SOLID",

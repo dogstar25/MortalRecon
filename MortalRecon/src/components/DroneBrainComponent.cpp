@@ -66,7 +66,6 @@ void DroneBrainComponent::_doPatrol()
 	}
 
 	navigationCode = navigationComponent->navigateTo(m_focusPoint.value().x, m_focusPoint.value().y);
-
 	if (navigationCode == NavigationStatus::DESTINATION_REACHED) {
 		m_focusPoint = _getNextPatrolDestination();
 		assert(m_focusPoint.has_value() && "No Patrol Destination was set");
@@ -257,7 +256,17 @@ int DroneBrainComponent::_determineState()
 
 				//get the payers actual position
 				auto player = parent()->parentScene()->getGameObjectsByTrait(TraitTag::player)[0];
-				m_focusPoint = player->getCenterPosition();
+				if (player->isAlive()) {
+
+					m_focusPoint = player->getCenterPosition();
+				}
+				else {
+
+					m_focusPoint = std::nullopt;
+					state = BrainState::PATROL;
+
+				}
+				
 
 			}
 

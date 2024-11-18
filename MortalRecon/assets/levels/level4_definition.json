@@ -132,7 +132,14 @@
         {
             "id": "LOC_0109_0053",
             "gameObjectType": "DRONE2",
-            "name": "EnemyA"
+            "name": "EnemyA",
+            "compositePieceLevelCap": 2
+        },
+        {
+            "id": "LOC_0111_0051",
+            "gameObjectType": "DRONE3",
+            "name": "EnemyV",
+            "compositePieceLevelCap": 1
         },
         {
             "id": "LOC_0095_0054",

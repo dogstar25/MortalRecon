@@ -76,9 +76,9 @@
         },
         {
             "id": "StatusItemId::ENEMY_DRONE_COUNT",
-            "initialValue": 7,
+            "initialValue": 4,
             "minValue": 0,
-            "maxValue": 7
+            "maxValue": 4
         }
 
 
