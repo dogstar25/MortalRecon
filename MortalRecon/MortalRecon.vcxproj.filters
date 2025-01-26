@@ -168,6 +168,12 @@
     <ClCompile Include="src\IMGui\IMGuiScoreHud.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\triggers\WeaponLevelMaxed.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ScoreManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="assets\blueprints\drone1_blueprint.png">
@@ -285,6 +291,7 @@
     <None Include="assets\levels\level4_definition.json" />
     <None Include="assets\sound\radiationLeak1.ogg" />
     <None Include="assets\levels\level5_definition.json" />
+    <None Include="assets\sound\testSound.ogg" />
   </ItemGroup>
   <ItemGroup>
     <Media Include="assets\sound\ambience_deep_shining.wav">
@@ -513,6 +520,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\IMGui\IMGuiScoreHud.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\triggers\WeaponLevelMaxed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ScoreManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

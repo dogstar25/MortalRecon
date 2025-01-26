@@ -96,6 +96,10 @@
         {
             "description": "Boss Dead",
             "triggerClass": "EnemyCDeadTrigger"
+        },
+        {
+            "description": "Weapon Maxed",
+            "triggerClass": "WeaponLevelMaxed"
         }
 
     ],

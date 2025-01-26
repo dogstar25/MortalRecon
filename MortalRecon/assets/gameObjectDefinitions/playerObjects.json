@@ -309,20 +309,17 @@
                         {
                             "level": 1,
                             "force": 1,
-                            "color": "Colors::GREEN",
-                            "bulletPoolId": "PLAYER_BULLET2_POOL"
+                            "bulletPoolId": "PLAYER_BLUE_BULLET_POOL"
                         },
                         {
                             "level": 2,
                             "force": 2,
-                            "color": "Colors::YELLOW",
-                            "bulletPoolId": "PLAYER_BULLET2_POOL"
+                            "bulletPoolId": "PLAYER_GREEN_BULLET_POOL"
                         },
                         {
                             "level": 3,
                             "force": 5,
-                            "color": "Colors::RED",
-                            "bulletPoolId": "PLAYER_BULLET2_POOL"
+                            "bulletPoolId": "PLAYER_RED_BULLET_POOL"
                         }
                     ]
                 },

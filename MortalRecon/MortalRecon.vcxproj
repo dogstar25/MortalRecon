@@ -150,7 +150,7 @@
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
-      <SubSystem>Console</SubSystem>
+      <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>MobyDick-1.0.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <Profile>true</Profile>
@@ -185,7 +185,7 @@
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
-      <SubSystem>Console</SubSystem>
+      <SubSystem>Windows</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -200,6 +200,7 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\ScoreManager.cpp" />
     <ClCompile Include="src\actions\ActorRotateDirectAngleAction.cpp" />
     <ClCompile Include="src\actions\ActorBoostAction.cpp" />
     <ClCompile Include="src\actions\ActorMoveAction.cpp" />
@@ -251,6 +252,7 @@
     <ClCompile Include="src\triggers\LevelComplete.cpp" />
     <ClCompile Include="src\triggers\MRTriggerFactory.cpp" />
     <ClCompile Include="src\triggers\PlayerDeath.cpp" />
+    <ClCompile Include="src\triggers\WeaponLevelMaxed.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="assets\blueprints\breakable_wall_128_blueprint.png" />
@@ -323,6 +325,7 @@
     <None Include="assets\sound\shield_hit_001.ogg" />
     <None Include="assets\sound\shield_hit_002.ogg" />
     <None Include="assets\sound\soundAssets.json" />
+    <None Include="assets\sound\testSound.ogg" />
     <None Include="assets\sound\turretDeploy1_01.ogg" />
     <None Include="assets\sound\turretDeploy2_01.ogg" />
     <None Include="assets\sound\turretUndeploy1_01.ogg" />
@@ -366,6 +369,7 @@
     <Font Include="assets\fonts\Roboto-Medium.ttf" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\ScoreManager.h" />
     <ClInclude Include="src\actions\ActorRotateDirectAngleAction.h" />
     <ClInclude Include="src\actions\ActorBoostAction.h" />
     <ClInclude Include="src\actions\ActorMoveAction.h" />
@@ -418,6 +422,7 @@
     <ClInclude Include="src\triggers\LevelComplete.h" />
     <ClInclude Include="src\triggers\MRTriggerFactory.h" />
     <ClInclude Include="src\triggers\PlayerDeath.h" />
+    <ClInclude Include="src\triggers\WeaponLevelMaxed.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

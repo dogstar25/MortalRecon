@@ -3,6 +3,7 @@
 #include "LevelComplete.h"
 #include "EnemyADeadTrigger.h"
 #include "EnemyCDeadTrigger.h"
+#include "WeaponLevelMaxed.h"
 
 MRTriggerFactory::MRTriggerFactory()
 {
@@ -29,6 +30,10 @@ std::shared_ptr<Trigger> MRTriggerFactory::create(std::string triggerType)
 	else if (triggerType == "EnemyCDeadTrigger") {
 
 		trigger = std::make_shared<EnemyCDeadTrigger>();
+	}
+	else if (triggerType == "WeaponLevelMaxed") {
+
+		trigger = std::make_shared<WeaponLevelMaxed>();
 	}
 
 	else {
