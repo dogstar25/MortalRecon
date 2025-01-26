@@ -33,6 +33,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_031D21860EEC4DA1AA851FDBE768E142"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_043C69D225FDE5A87BE0597FD7906B6A"
         "OwnerKey" = "8:_ECD1E061CE7E41ECB1D8635D0C56529A"
         "MsmSig" = "8:_UNDEFINED"
@@ -45,19 +51,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_07111293501A4F6D9E56E614BFE8C259"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_07FC538C10324BCB9836FD4F0BB9CF7E"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_0C3B7432CEF2441C819E1B5D12B2E83C"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -75,13 +69,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_108F8F047E354F4695449CE4EB1169FA"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_10FD770A39E44613918470BDE4F87624"
+        "MsmKey" = "8:_0E46F221AE9D4FB18BD657DC0DA55A48"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -93,13 +81,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_14BE491219A042C8A9FA119D131B75DD"
+        "MsmKey" = "8:_1378E4F8344A4DEAB115058BDCFCC9F7"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_16C68CE73EA949F48666BC0944E7D90B"
+        "MsmKey" = "8:_1D38EFD98C2949319A9D0347CB4AD169"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -123,7 +111,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_2372741F4ABF4272942A1F96F90EBA37"
+        "MsmKey" = "8:_22BC8DE3CB6D4CA092A60B8AB72B2F60"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -135,7 +123,19 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_24DB0B0B1BF94C2DAB0B833FC4A02303"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_266FA5F780E74DB6BC1BA35819037875"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_27D519943EA34E81946C6B1410BFBA41"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -147,13 +147,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_2CB8572B364344B985CB127ADAAB7E67"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_30FB34A6A46345C493D32FD745BA4017"
+        "MsmKey" = "8:_2D731081E22941B4BB3DAD7ECB814DBE"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -171,13 +165,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_33933398C41C4B8D858145CA64DCD8CC"
+        "MsmKey" = "8:_337ED9A27D794EE9A5EAB458CB4EB4FD"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_36BB5151D6434BBEA8C842E3D3F12592"
+        "MsmKey" = "8:_37F379B00CB64A808E5AD59BAA1844BD"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -189,7 +183,19 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_3920CE534AA44E3FA18DE80C32F26C0B"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_3B3EE241402D4649973F8A0B0029B993"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_3D62D831C75E4E8E98C979F320CD0A05"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -201,13 +207,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_431E28A0F0314882A81A1F9AB509E52D"
+        "MsmKey" = "8:_3E0BEEC8F23A4D8A9F351ABC418A6C41"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_469976D8A7DA4632B38CE251E22A80C1"
+        "MsmKey" = "8:_488E008AAEAF42E9AB2F1B9EE2E2A193"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -219,13 +225,25 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_4AAC5B5F66A04A3EB02A27B6429E1D8A"
+        "MsmKey" = "8:_4C879B82B6A54AB4AEEC4C45F219D993"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_4FDC48B154A548D9B7F293AD9AD5CDBA"
+        "MsmKey" = "8:_51306FD1582248458A87A3BE9D8BD2A4"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_52EFC853DAAF410E89BAEE4AD568E9FC"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_54596042787A443283846A126CD9B48B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -237,7 +255,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_5988F73FDA7D4118BC564A4B06B407A6"
+        "MsmKey" = "8:_56E305EB7DDD4575A1F0CE5DA4008E6F"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -267,12 +285,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_614CCF641E964B20A2D5D0BF2FB0B083"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_62E71E7993324D7A823B344F3BCF1A6F"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -297,7 +309,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_66AEFCD1E03840D4807ECB75234A636F"
+        "MsmKey" = "8:_674594D768904B08B12F6C7B3ABDB14C"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -327,13 +339,19 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_77294FE539384AFB9CD36B8CBC85D145"
+        "MsmKey" = "8:_77161F33AF054F6C9848C6EB4D1DF3D0"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_776D176589CF4CD3BC8E9CE423BD080E"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_7DDF4CB3F58347A9875D106BD6ED6FFA"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -357,13 +375,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_809377954C0246E4AFBEB4F841D635DB"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_83E39E354A394E9CBE88651D7DA953AD"
+        "MsmKey" = "8:_83FDE97E772A4CC7AE19B9F4BDBE5D40"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -381,6 +393,18 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_8CEB10B8EB564DEEA01C0917D4D004B3"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_8D92FF3620054C93A8817D8CD7742855"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_8DA35AD3534043CAB60E6C2E66673CB2"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -388,6 +412,12 @@
         "Entry"
         {
         "MsmKey" = "8:_8E2A9B0C38DD4468BCE2F93A600F24CA"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_9043F5D82DBA4FE59984AD55B2CF81D3"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -423,13 +453,19 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_95BC73BEB1104E518558DE6C7B1C0968"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_97B5FB7CDC2D4A83B07A54BE02F6460D"
         "OwnerKey" = "8:_ECD1E061CE7E41ECB1D8635D0C56529A"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_A18C59A828904854872E7024960CACAF"
+        "MsmKey" = "8:_9ECB97EB461D49F39859096276410171"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -459,12 +495,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_A4BA43808D3B49C480661D6752E30064"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_A6066448D1894C3981F54A7E6E9BB285"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -477,13 +507,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_A77C8FA73A9D44F2B4271CC0F1078D7D"
+        "MsmKey" = "8:_A73ADCA55E9142A88DE0757CAFD2ACC0"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_A8551354AD824C9B9890123BC2C84D30"
+        "MsmKey" = "8:_A77C8FA73A9D44F2B4271CC0F1078D7D"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -507,55 +537,19 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_AE0662322F6A4A8488EF144F1A544ED0"
+        "MsmKey" = "8:_AD97124F3B7442AC813DAF1289EDBFDE"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_B3B6DD6EFC144C23A1F39FFAFB834435"
+        "MsmKey" = "8:_B03DAF8B91464959887968EF1BB1187B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_B48B95D71315405BB688BEC6FA664A24"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_B751379485424D72AF8D813CF5EE51F0"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_B7BCF24277A941AD837F8F7C5C7DCF6E"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_B9F8B5DD4B654D888468686B24B93048"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_C6850FA79723475CBDB233EDF78769F3"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_C771E06AD3974B1893D723971D625A48"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_C83E156C153444EC9C75BBFECDB2D400"
+        "MsmKey" = "8:_BDE3958B19E840A9903927ED3D960858"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -568,12 +562,6 @@
         "Entry"
         {
         "MsmKey" = "8:_C8EAADBDB3A9411DA5EFA3E5DE16C4E3"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_CD152FDB048C4BD181264F32E99EE79B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -597,20 +585,8 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_D449B221EF8142618A652DEF6D4D5A9A"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_D7183C9DE2E7CDCCEF4F9BAD7BA7BB98"
         "OwnerKey" = "8:_ECD1E061CE7E41ECB1D8635D0C56529A"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_D76855E210B74E6F9B0EE1D5DB574466"
-        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -622,12 +598,6 @@
         "Entry"
         {
         "MsmKey" = "8:_D8A099629E6F4909AB5611AF2D4DEB6B"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_DCCE0B9021334570B293B68D0117C18F"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -705,6 +675,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_F0E68959A27A4462AEF489195BB5597D"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_F2808CE433AF41C09BF3C3A0565DDA2B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -729,7 +705,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_F4E90E59313E4BAF9193882D6C97092E"
+        "MsmKey" = "8:_F4ED592FE5484C9FBB042D4A07FE1A49"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F4FBD6D97FAD42B9904A591892D46E06"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -741,19 +723,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_F6D9800331F84C7C9529CA3FD8E0E237"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_FB609056D9A3A55A6B396366A60BF710"
         "OwnerKey" = "8:_ECD1E061CE7E41ECB1D8635D0C56529A"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_FD7DBB2844B044478E1CED47AFD5ABC9"
+        "MsmKey" = "8:_FC618F74AEA0462EB0EF700254E21208"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -788,6 +764,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
         "Release"
@@ -812,6 +796,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Visual.C++.14.0.x64"
+                    {
+                    "Name" = "8:Visual C++ \"14\" Runtime Libraries (x64)"
+                    "ProductCode" = "8:Microsoft.Visual.C++.14.0.x64"
+                    }
+                }
             }
         }
     }
@@ -894,6 +886,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_031D21860EEC4DA1AA851FDBE768E142"
+            {
+            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\impact_metal_012.ogg"
+            "TargetName" = "8:impact_metal_012.ogg"
+            "Tag" = "8:"
+            "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_043C69D225FDE5A87BE0597FD7906B6A"
             {
             "SourcePath" = "8:api-ms-win-crt-string-l1-1-0.dll"
@@ -934,52 +946,12 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_07111293501A4F6D9E56E614BFE8C259"
-            {
-            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\jetpack_start1.ogg"
-            "TargetName" = "8:jetpack_start1.ogg"
-            "Tag" = "8:"
-            "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_07FC538C10324BCB9836FD4F0BB9CF7E"
             {
             "SourcePath" = "8:..\\MortalRecon\\assets\\config\\gameScenes.json"
             "TargetName" = "8:gameScenes.json"
             "Tag" = "8:"
             "Folder" = "8:_1C5A54053FC14C069CA7EE50D030AA7E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0C3B7432CEF2441C819E1B5D12B2E83C"
-            {
-            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\shield_hit_002.ogg"
-            "TargetName" = "8:shield_hit_002.ogg"
-            "Tag" = "8:"
-            "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -1034,30 +1006,10 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_108F8F047E354F4695449CE4EB1169FA"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0E46F221AE9D4FB18BD657DC0DA55A48"
             {
-            "SourcePath" = "8:..\\MortalRecon\\x64\\Release\\vccorlib140.dll"
-            "TargetName" = "8:vccorlib140.dll"
-            "Tag" = "8:"
-            "Folder" = "8:_1A47D19327604BD596CC9362BFB8CD71"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_10FD770A39E44613918470BDE4F87624"
-            {
-            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\soundAssets.json"
-            "TargetName" = "8:soundAssets.json"
+            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\impact_metal_shell_003.ogg"
+            "TargetName" = "8:impact_metal_shell_003.ogg"
             "Tag" = "8:"
             "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
             "Condition" = "8:"
@@ -1094,10 +1046,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_14BE491219A042C8A9FA119D131B75DD"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1378E4F8344A4DEAB115058BDCFCC9F7"
             {
-            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\pulse_fully_charged_1.ogg"
-            "TargetName" = "8:pulse_fully_charged_1.ogg"
+            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\impact_metal_shell_002.ogg"
+            "TargetName" = "8:impact_metal_shell_002.ogg"
             "Tag" = "8:"
             "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
             "Condition" = "8:"
@@ -1114,10 +1066,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_16C68CE73EA949F48666BC0944E7D90B"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1D38EFD98C2949319A9D0347CB4AD169"
             {
-            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\radiationLeak1.ogg"
-            "TargetName" = "8:radiationLeak1.ogg"
+            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\turretUndeploy1_01.ogg"
+            "TargetName" = "8:turretUndeploy1_01.ogg"
             "Tag" = "8:"
             "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
             "Condition" = "8:"
@@ -1194,10 +1146,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2372741F4ABF4272942A1F96F90EBA37"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_22BC8DE3CB6D4CA092A60B8AB72B2F60"
             {
-            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\impact_metal_shell_003.ogg"
-            "TargetName" = "8:impact_metal_shell_003.ogg"
+            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\turretDeploy2_01.ogg"
+            "TargetName" = "8:turretDeploy2_01.ogg"
             "Tag" = "8:"
             "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
             "Condition" = "8:"
@@ -1234,12 +1186,52 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_24DB0B0B1BF94C2DAB0B833FC4A02303"
+            {
+            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\collect_heart1_02.ogg"
+            "TargetName" = "8:collect_heart1_02.ogg"
+            "Tag" = "8:"
+            "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_266FA5F780E74DB6BC1BA35819037875"
             {
             "SourcePath" = "8:..\\MortalRecon\\assets\\gameObjectDefinitions\\hudObjects.json"
             "TargetName" = "8:hudObjects.json"
             "Tag" = "8:"
             "Folder" = "8:_5AEB59AF49B2474FBC9B0368B40EB05D"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_27D519943EA34E81946C6B1410BFBA41"
+            {
+            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\shield_hit_001.ogg"
+            "TargetName" = "8:shield_hit_001.ogg"
+            "Tag" = "8:"
+            "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -1274,30 +1266,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2CB8572B364344B985CB127ADAAB7E67"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2D731081E22941B4BB3DAD7ECB814DBE"
             {
-            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\jetpack_start2.ogg"
-            "TargetName" = "8:jetpack_start2.ogg"
-            "Tag" = "8:"
-            "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_30FB34A6A46345C493D32FD745BA4017"
-            {
-            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\impact_metal_012.ogg"
-            "TargetName" = "8:impact_metal_012.ogg"
+            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\pulse_fully_charged_1.ogg"
+            "TargetName" = "8:pulse_fully_charged_1.ogg"
             "Tag" = "8:"
             "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
             "Condition" = "8:"
@@ -1354,10 +1326,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_33933398C41C4B8D858145CA64DCD8CC"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_337ED9A27D794EE9A5EAB458CB4EB4FD"
             {
-            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\fire_pulse_fail_1.ogg"
-            "TargetName" = "8:fire_pulse_fail_1.ogg"
+            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\weapon2_fire1.wav"
+            "TargetName" = "8:weapon2_fire1.wav"
             "Tag" = "8:"
             "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
             "Condition" = "8:"
@@ -1374,10 +1346,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_36BB5151D6434BBEA8C842E3D3F12592"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_37F379B00CB64A808E5AD59BAA1844BD"
             {
-            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\impact_metal_shell_002.ogg"
-            "TargetName" = "8:impact_metal_shell_002.ogg"
+            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\jetpack_start1.ogg"
+            "TargetName" = "8:jetpack_start1.ogg"
             "Tag" = "8:"
             "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
             "Condition" = "8:"
@@ -1414,12 +1386,52 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3920CE534AA44E3FA18DE80C32F26C0B"
+            {
+            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\fire_pulse_2.ogg"
+            "TargetName" = "8:fire_pulse_2.ogg"
+            "Tag" = "8:"
+            "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3B3EE241402D4649973F8A0B0029B993"
             {
             "SourcePath" = "8:..\\MortalRecon\\assets\\levels\\level5_blueprint.png"
             "TargetName" = "8:level5_blueprint.png"
             "Tag" = "8:"
             "Folder" = "8:_0DFBAF2E195C47CDB8546ABCA5C45B7E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3D62D831C75E4E8E98C979F320CD0A05"
+            {
+            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\testSound.ogg"
+            "TargetName" = "8:testSound.ogg"
+            "Tag" = "8:"
+            "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -1454,10 +1466,10 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_431E28A0F0314882A81A1F9AB509E52D"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3E0BEEC8F23A4D8A9F351ABC418A6C41"
             {
-            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\impact_metal_shell_001.ogg"
-            "TargetName" = "8:impact_metal_shell_001.ogg"
+            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\turretDeploy1_01.ogg"
+            "TargetName" = "8:turretDeploy1_01.ogg"
             "Tag" = "8:"
             "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
             "Condition" = "8:"
@@ -1474,10 +1486,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_469976D8A7DA4632B38CE251E22A80C1"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_488E008AAEAF42E9AB2F1B9EE2E2A193"
             {
-            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\weapon_laser_002.ogg"
-            "TargetName" = "8:weapon_laser_002.ogg"
+            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\doorActivate1.ogg"
+            "TargetName" = "8:doorActivate1.ogg"
             "Tag" = "8:"
             "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
             "Condition" = "8:"
@@ -1514,10 +1526,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4AAC5B5F66A04A3EB02A27B6429E1D8A"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4C879B82B6A54AB4AEEC4C45F219D993"
             {
-            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\weapon2_fire1_01.ogg"
-            "TargetName" = "8:weapon2_fire1_01.ogg"
+            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\jetpack_operating1.ogg"
+            "TargetName" = "8:jetpack_operating1.ogg"
             "Tag" = "8:"
             "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
             "Condition" = "8:"
@@ -1534,10 +1546,50 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4FDC48B154A548D9B7F293AD9AD5CDBA"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_51306FD1582248458A87A3BE9D8BD2A4"
             {
-            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\jetpack_operating1.ogg"
-            "TargetName" = "8:jetpack_operating1.ogg"
+            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\retro_impact_hit_05.ogg"
+            "TargetName" = "8:retro_impact_hit_05.ogg"
+            "Tag" = "8:"
+            "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_52EFC853DAAF410E89BAEE4AD568E9FC"
+            {
+            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\buttonWorking.ogg"
+            "TargetName" = "8:buttonWorking.ogg"
+            "Tag" = "8:"
+            "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_54596042787A443283846A126CD9B48B"
+            {
+            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\fire_pulse_fail_1.ogg"
+            "TargetName" = "8:fire_pulse_fail_1.ogg"
             "Tag" = "8:"
             "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
             "Condition" = "8:"
@@ -1574,12 +1626,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5988F73FDA7D4118BC564A4B06B407A6"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_56E305EB7DDD4575A1F0CE5DA4008E6F"
             {
-            "SourcePath" = "8:..\\MortalRecon\\x64\\Release\\vcruntime140_1.dll"
-            "TargetName" = "8:vcruntime140_1.dll"
+            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\shield_hit_002.ogg"
+            "TargetName" = "8:shield_hit_002.ogg"
             "Tag" = "8:"
-            "Folder" = "8:_1A47D19327604BD596CC9362BFB8CD71"
+            "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -1674,26 +1726,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_614CCF641E964B20A2D5D0BF2FB0B083"
-            {
-            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\weapon2_fire1.wav"
-            "TargetName" = "8:weapon2_fire1.wav"
-            "Tag" = "8:"
-            "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_62E71E7993324D7A823B344F3BCF1A6F"
             {
             "SourcePath" = "8:..\\MortalRecon\\assets\\levels\\level1_definition.json"
@@ -1774,10 +1806,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_66AEFCD1E03840D4807ECB75234A636F"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_674594D768904B08B12F6C7B3ABDB14C"
             {
-            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\turretDeploy1_01.ogg"
-            "TargetName" = "8:turretDeploy1_01.ogg"
+            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\retro_impact_hit_16.wav"
+            "TargetName" = "8:retro_impact_hit_16.wav"
             "Tag" = "8:"
             "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
             "Condition" = "8:"
@@ -1874,10 +1906,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_77294FE539384AFB9CD36B8CBC85D145"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_77161F33AF054F6C9848C6EB4D1DF3D0"
             {
-            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\fire_pulse_1.ogg"
-            "TargetName" = "8:fire_pulse_1.ogg"
+            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\weapon_laser_002.ogg"
+            "TargetName" = "8:weapon_laser_002.ogg"
             "Tag" = "8:"
             "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
             "Condition" = "8:"
@@ -1900,6 +1932,26 @@
             "TargetName" = "8:msvcp140_2.dll"
             "Tag" = "8:"
             "Folder" = "8:_1A47D19327604BD596CC9362BFB8CD71"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7DDF4CB3F58347A9875D106BD6ED6FFA"
+            {
+            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\fire_pulse_1.ogg"
+            "TargetName" = "8:fire_pulse_1.ogg"
+            "Tag" = "8:"
+            "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -1974,32 +2026,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_809377954C0246E4AFBEB4F841D635DB"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_83FDE97E772A4CC7AE19B9F4BDBE5D40"
             {
             "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\sci-fi_weapon_plasma_pistol_06.ogg"
             "TargetName" = "8:sci-fi_weapon_plasma_pistol_06.ogg"
             "Tag" = "8:"
             "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_83E39E354A394E9CBE88651D7DA953AD"
-            {
-            "SourcePath" = "8:..\\MortalRecon\\x64\\Release\\vcamp140.dll"
-            "TargetName" = "8:vcamp140.dll"
-            "Tag" = "8:"
-            "Folder" = "8:_1A47D19327604BD596CC9362BFB8CD71"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -2054,6 +2086,46 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8CEB10B8EB564DEEA01C0917D4D004B3"
+            {
+            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\player_explode_1.ogg"
+            "TargetName" = "8:player_explode_1.ogg"
+            "Tag" = "8:"
+            "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8D92FF3620054C93A8817D8CD7742855"
+            {
+            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\weapon_laser_004.ogg"
+            "TargetName" = "8:weapon_laser_004.ogg"
+            "Tag" = "8:"
+            "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8DA35AD3534043CAB60E6C2E66673CB2"
             {
             "SourcePath" = "8:..\\MortalRecon\\assets\\blueprints\\drone2_blueprint.png"
@@ -2080,6 +2152,26 @@
             "TargetName" = "8:textureAtlas00.png"
             "Tag" = "8:"
             "Folder" = "8:_EC117664E7504B65B42DDF3CF1413A33"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9043F5D82DBA4FE59984AD55B2CF81D3"
+            {
+            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\impact_metal_shell_001.ogg"
+            "TargetName" = "8:impact_metal_shell_001.ogg"
+            "Tag" = "8:"
+            "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -2194,6 +2286,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_95BC73BEB1104E518558DE6C7B1C0968"
+            {
+            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\soundAssets.json"
+            "TargetName" = "8:soundAssets.json"
+            "Tag" = "8:"
+            "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_97B5FB7CDC2D4A83B07A54BE02F6460D"
             {
             "SourcePath" = "8:SDL2_mixer.dll"
@@ -2214,10 +2326,10 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A18C59A828904854872E7024960CACAF"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9ECB97EB461D49F39859096276410171"
             {
-            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\shield_hit_001.ogg"
-            "TargetName" = "8:shield_hit_001.ogg"
+            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\pick_up_002.ogg"
+            "TargetName" = "8:pick_up_002.ogg"
             "Tag" = "8:"
             "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
             "Condition" = "8:"
@@ -2314,26 +2426,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A4BA43808D3B49C480661D6752E30064"
-            {
-            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\sci-fi_explosion_04.ogg"
-            "TargetName" = "8:sci-fi_explosion_04.ogg"
-            "Tag" = "8:"
-            "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A6066448D1894C3981F54A7E6E9BB285"
             {
             "SourcePath" = "8:..\\MortalRecon\\x64\\Release\\msvcp140.dll"
@@ -2374,12 +2466,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A77C8FA73A9D44F2B4271CC0F1078D7D"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A73ADCA55E9142A88DE0757CAFD2ACC0"
             {
-            "SourcePath" = "8:..\\MortalRecon\\x64\\Release\\concrt140.dll"
-            "TargetName" = "8:concrt140.dll"
+            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\pulse_charging_1.ogg"
+            "TargetName" = "8:pulse_charging_1.ogg"
             "Tag" = "8:"
-            "Folder" = "8:_1A47D19327604BD596CC9362BFB8CD71"
+            "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -2394,12 +2486,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A8551354AD824C9B9890123BC2C84D30"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A77C8FA73A9D44F2B4271CC0F1078D7D"
             {
-            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\buttonWorking.ogg"
-            "TargetName" = "8:buttonWorking.ogg"
+            "SourcePath" = "8:..\\MortalRecon\\x64\\Release\\concrt140.dll"
+            "TargetName" = "8:concrt140.dll"
             "Tag" = "8:"
-            "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
+            "Folder" = "8:_1A47D19327604BD596CC9362BFB8CD71"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -2474,10 +2566,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_AE0662322F6A4A8488EF144F1A544ED0"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_AD97124F3B7442AC813DAF1289EDBFDE"
             {
-            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\weapon_laser_004.ogg"
-            "TargetName" = "8:weapon_laser_004.ogg"
+            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\fire_pulse_3.ogg"
+            "TargetName" = "8:fire_pulse_3.ogg"
             "Tag" = "8:"
             "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
             "Condition" = "8:"
@@ -2494,10 +2586,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B3B6DD6EFC144C23A1F39FFAFB834435"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B03DAF8B91464959887968EF1BB1187B"
             {
-            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\retro_impact_hit_05.ogg"
-            "TargetName" = "8:retro_impact_hit_05.ogg"
+            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\weapon2_fire1_01.ogg"
+            "TargetName" = "8:weapon2_fire1_01.ogg"
             "Tag" = "8:"
             "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
             "Condition" = "8:"
@@ -2514,130 +2606,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B48B95D71315405BB688BEC6FA664A24"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BDE3958B19E840A9903927ED3D960858"
             {
-            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\collect_heart2_01.ogg"
-            "TargetName" = "8:collect_heart2_01.ogg"
-            "Tag" = "8:"
-            "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B751379485424D72AF8D813CF5EE51F0"
-            {
-            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\pulse_charging_1.ogg"
-            "TargetName" = "8:pulse_charging_1.ogg"
-            "Tag" = "8:"
-            "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B7BCF24277A941AD837F8F7C5C7DCF6E"
-            {
-            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\fire_pulse_2.ogg"
-            "TargetName" = "8:fire_pulse_2.ogg"
-            "Tag" = "8:"
-            "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B9F8B5DD4B654D888468686B24B93048"
-            {
-            "SourcePath" = "8:..\\MortalRecon\\x64\\Release\\vcomp140.dll"
-            "TargetName" = "8:vcomp140.dll"
-            "Tag" = "8:"
-            "Folder" = "8:_1A47D19327604BD596CC9362BFB8CD71"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C6850FA79723475CBDB233EDF78769F3"
-            {
-            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\turretUndeploy1_01.ogg"
-            "TargetName" = "8:turretUndeploy1_01.ogg"
-            "Tag" = "8:"
-            "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C771E06AD3974B1893D723971D625A48"
-            {
-            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\droneMoving1.ogg"
-            "TargetName" = "8:droneMoving1.ogg"
-            "Tag" = "8:"
-            "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C83E156C153444EC9C75BBFECDB2D400"
-            {
-            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\retro_impact_hit_16.wav"
-            "TargetName" = "8:retro_impact_hit_16.wav"
+            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\sci-fi_explosion_04.ogg"
+            "TargetName" = "8:sci-fi_explosion_04.ogg"
             "Tag" = "8:"
             "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
             "Condition" = "8:"
@@ -2680,26 +2652,6 @@
             "TargetName" = "8:conthrax-sb.ttf"
             "Tag" = "8:"
             "Folder" = "8:_1AE921DB3F564753838B28DFEE8680E1"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CD152FDB048C4BD181264F32E99EE79B"
-            {
-            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\doorActivate1.ogg"
-            "TargetName" = "8:doorActivate1.ogg"
-            "Tag" = "8:"
-            "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -2774,26 +2726,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D449B221EF8142618A652DEF6D4D5A9A"
-            {
-            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\fire_pulse_3.ogg"
-            "TargetName" = "8:fire_pulse_3.ogg"
-            "Tag" = "8:"
-            "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D7183C9DE2E7CDCCEF4F9BAD7BA7BB98"
             {
             "SourcePath" = "8:api-ms-win-crt-utility-l1-1-0.dll"
@@ -2812,26 +2744,6 @@
             "Register" = "3:1"
             "Exclude" = "11:TRUE"
             "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D76855E210B74E6F9B0EE1D5DB574466"
-            {
-            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\turretDeploy2_01.ogg"
-            "TargetName" = "8:turretDeploy2_01.ogg"
-            "Tag" = "8:"
-            "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D8111693CF4947919D185E1BE6E34222"
@@ -2860,26 +2772,6 @@
             "TargetName" = "8:gameConfig.json"
             "Tag" = "8:"
             "Folder" = "8:_1C5A54053FC14C069CA7EE50D030AA7E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DCCE0B9021334570B293B68D0117C18F"
-            {
-            "SourcePath" = "8:..\\MortalRecon\\x64\\Release\\vcruntime140.dll"
-            "TargetName" = "8:vcruntime140.dll"
-            "Tag" = "8:"
-            "Folder" = "8:_1A47D19327604BD596CC9362BFB8CD71"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -3114,6 +3006,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F0E68959A27A4462AEF489195BB5597D"
+            {
+            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\droneMoving1.ogg"
+            "TargetName" = "8:droneMoving1.ogg"
+            "Tag" = "8:"
+            "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F2808CE433AF41C09BF3C3A0565DDA2B"
             {
             "SourcePath" = "8:..\\MortalRecon\\assets\\levels\\level4_blueprint.png"
@@ -3194,10 +3106,30 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F4E90E59313E4BAF9193882D6C97092E"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F4ED592FE5484C9FBB042D4A07FE1A49"
             {
-            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\pick_up_002.ogg"
-            "TargetName" = "8:pick_up_002.ogg"
+            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\collect_heart2_01.ogg"
+            "TargetName" = "8:collect_heart2_01.ogg"
+            "Tag" = "8:"
+            "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F4FBD6D97FAD42B9904A591892D46E06"
+            {
+            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\jetpack_start2.ogg"
+            "TargetName" = "8:jetpack_start2.ogg"
             "Tag" = "8:"
             "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
             "Condition" = "8:"
@@ -3234,26 +3166,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F6D9800331F84C7C9529CA3FD8E0E237"
-            {
-            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\collect_heart1_02.ogg"
-            "TargetName" = "8:collect_heart1_02.ogg"
-            "Tag" = "8:"
-            "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FB609056D9A3A55A6B396366A60BF710"
             {
             "SourcePath" = "8:api-ms-win-crt-stdio-l1-1-0.dll"
@@ -3274,10 +3186,10 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FD7DBB2844B044478E1CED47AFD5ABC9"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FC618F74AEA0462EB0EF700254E21208"
             {
-            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\player_explode_1.ogg"
-            "TargetName" = "8:player_explode_1.ogg"
+            "SourcePath" = "8:..\\MortalRecon\\assets\\sound\\radiationLeak1.ogg"
+            "TargetName" = "8:radiationLeak1.ogg"
             "Tag" = "8:"
             "Folder" = "8:_A8FC941D2BE149A385B2F420EC6500AC"
             "Condition" = "8:"
@@ -3458,15 +3370,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:MortalRecon"
-        "ProductCode" = "8:{A1530CD9-6094-449E-9DDE-60311BF46FD5}"
-        "PackageCode" = "8:{F5044E4A-6852-4D79-8593-79F0C5D6E4A4}"
+        "ProductCode" = "8:{141FA91D-DFC2-40C3-B471-71203EC458E5}"
+        "PackageCode" = "8:{2F3E0568-535E-4BDD-906F-97F5B945E759}"
         "UpgradeCode" = "8:{C85B2FF7-9676-44F3-8CB5-79C3977FBD57}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:FALSE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:1.1.0"
+        "ProductVersion" = "8:1.2.0"
         "Manufacturer" = "8:SinbadGames"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -3581,7 +3493,7 @@
         {
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_759F073E48334B9A95AF7632AC021816"
             {
-            "Name" = "8:Shortcut to Primary Output from MortalRecon (Release x64)"
+            "Name" = "8:MortalRecon"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
@@ -3595,7 +3507,7 @@
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_A3B815C064534E37831ADAE124D988B0"
             {
-            "Name" = "8:Shortcut to Primary Output from MortalRecon (Release x64)"
+            "Name" = "8:MortalRecon"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"

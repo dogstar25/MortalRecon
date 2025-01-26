@@ -102,6 +102,10 @@
         {
             "description": "Level Complete",
             "triggerClass": "LevelComplete"
+        },
+        {
+            "description": "Weapon Maxed",
+            "triggerClass": "WeaponLevelMaxed"
         }
 
     ],

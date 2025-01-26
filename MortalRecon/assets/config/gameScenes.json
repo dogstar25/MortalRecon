@@ -107,17 +107,17 @@
                         }
                     }
                 },
-                {
-                    "gameObjectType": "IMGUI_SCORE_HUD",
-                    "layer": "GameLayer::GUI",
-                    "location": {
-                        "windowPosition": "PositionAlignment::TOP_CENTER",
-                        "adjust": {
-                            "x": 156,
-                            "y": 48
-                        }
-                    }
-                },
+                //{
+                //    "gameObjectType": "IMGUI_SCORE_HUD",
+                //    "layer": "GameLayer::GUI",
+                //    "location": {
+                //        "windowPosition": "PositionAlignment::TOP_CENTER",
+                //        "adjust": {
+                //            "x": 156,
+                //            "y": 48
+                //        }
+                //    }
+                //},
                 {
                     "gameObjectType": "METEOR_EMITTER",
                     "layer": "GameLayer::BACKGROUND_1",
@@ -180,8 +180,20 @@
                     "maxItems": 500
                 },
                 {
-                    "id": "PLAYER_BULLET_POOL",
-                    "gameObjectType": "PLAYER_BULLET",
+                    "id": "PLAYER_BLUE_BULLET_POOL",
+                    "gameObjectType": "PLAYER_BULLET_BLUE",
+                    "lifetime": 1.25,
+                    "maxItems": 500
+                },
+                {
+                    "id": "PLAYER_GREEN_BULLET_POOL",
+                    "gameObjectType": "PLAYER_BULLET_GREEN",
+                    "lifetime": 1.25,
+                    "maxItems": 500
+                },
+                {
+                    "id": "PLAYER_RED_BULLET_POOL",
+                    "gameObjectType": "PLAYER_BULLET_RED",
                     "lifetime": 1.25,
                     "maxItems": 500
                 },
@@ -445,8 +457,20 @@
                     "maxItems": 500
                 },
                 {
-                    "id": "PLAYER_BULLET_POOL",
-                    "gameObjectType": "PLAYER_BULLET",
+                    "id": "PLAYER_BLUE_BULLET_POOL",
+                    "gameObjectType": "PLAYER_BULLET_BLUE",
+                    "lifetime": 1.25,
+                    "maxItems": 500
+                },
+                {
+                    "id": "PLAYER_GREEN_BULLET_POOL",
+                    "gameObjectType": "PLAYER_BULLET_GREEN",
+                    "lifetime": 1.25,
+                    "maxItems": 500
+                },
+                {
+                    "id": "PLAYER_RED_BULLET_POOL",
+                    "gameObjectType": "PLAYER_BULLET_RED",
                     "lifetime": 1.25,
                     "maxItems": 500
                 },

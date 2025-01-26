@@ -236,8 +236,18 @@ void MRContactListener::_playerBullet_droneShield(GameObject* playerBullet, Game
 
 	if (shieldHolds == false) {
 
+		//If the weapon level is maxed out then dont release anymore scrap
+		bool playerWeaponMaxed{};
+		auto& weaponLevel = game->contextMananger()->getStatusItem(StatusItemId::PLAYER_WEAPON_LEVEL);
+		if (weaponLevel.isAtMax()) {
+
+			playerWeaponMaxed = true;
+		}
+
 		particleComponent->addParticleEffect(ParticleEffects::impactSmoke);
-		particleComponent->addParticleEffect(ParticleEffects::scrap);
+		if (playerWeaponMaxed == false) {
+			particleComponent->addParticleEffect(ParticleEffects::scrap);
+		}
 		soundComponent->playSound("IMPACTED_SOUND");
 
 	}
